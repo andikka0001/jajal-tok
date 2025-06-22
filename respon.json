@@ -13,551 +13,161 @@
     { "text": "KPI itu apa?", "action": "kpi itu apa?" },
     { "text": "Apa itu rebahan?", "action": "apa itu rebahan?" },
     { "text": "Pernah insecure?", "action": "pernah insecure?" },
-    { "text": "Ketik Manual", "action": "showManualInput" },
-    { "text": "Ngabers itu apa?", "action": "apa itu ngabers?" },
-    { "text": "Bucin itu apa?", "action": "apa itu bucin?" },
-    { "text": "Ghosting itu apa?", "action": "ghosting itu apa?" },
-    { "text": "Cringe itu apa?", "action": "apa itu cringe?" },
-    { "text": "POV itu apa?", "action": "apa itu pov?" },
-    { "text": "Mantap jiwa?", "action": "mantap jiwa?" },
-    { "text": "Cuan banget?", "action": "cuan banget?" },
-    { "text": "Spill rahasia?", "action": "spill rahasia?" },
-    { "text": "Gamon itu apa?", "action": "apa itu gamon?" },
-    { "text": "Mager itu apa?", "action": "apa itu mager?" },
-    { "text": "Salty itu apa?", "action": "apa itu salty?" },
-    { "text": "Random banget?", "action": "random banget?" },
-    { "text": "Pick me itu apa?", "action": "apa itu pick me?" },
-    { "text": "Circle pertemanan?", "action": "circle pertemanan?" },
-    { "text": "Vibesnya gimana?", "action": "vibesnya gimana?" },
-    { "text": "Bahasa gaul baru?", "action": "bahasa gaul baru?" },
-    { "text": "Definisi 'santuy'?", "action": "apa itu santuy?" },
-    { "text": "Hidden gem?", "action": "hidden gem?" },
-    { "text": "Flexing itu apa?", "action": "apa itu flexing?" },
-    { "text": "Fomo itu apa?", "action": "apa itu fomo?" },
-    { "text": "Toxic itu apa?", "action": "apa itu toxic?" },
-    { "text": "Slay itu apa?", "action": "apa itu slay?" },
-    { "text": "Kiw kiw artinya?", "action": "kiw kiw artinya?" },
-    { "text": "Bokem itu apa?", "action": "apa itu bokem?" },
-    { "text": "Relate banget?", "action": "relate banget?" },
-    { "text": "Valid banget?", "action": "valid banget?" },
-    { "text": "Inner child?", "action": "inner child?" },
-    { "text": "Gaslighting itu?", "action": "gaslighting itu?" },
-    { "text": "Love language?", "action": "love language?" },
-    { "text": "Red flag?", "action": "red flag?" },
-    { "text": "Green flag?", "action": "green flag?" },
-    { "text": "Simp itu apa?", "action": "apa itu simp?" },
-    { "text": "Pansos itu apa?", "action": "apa itu pansos?" },
-    { "text": "Cans itu apa?", "action": "apa itu cans?" },
-    { "text": "PAP itu apa?", "action": "apa itu pap?" },
-    { "text": "Sepuh itu apa?", "action": "apa itu sepuh?" },
-    { "text": "Ngaret itu apa?", "action": "apa itu ngaret?" },
-    { "text": "Anjay itu apa?", "action": "apa itu anjay?" },
-    { "text": "Kicep itu apa?", "action": "apa itu kicep?" },
-    { "text": "Ngebait itu apa?", "action": "apa itu ngebait?" },
-    { "text": "Ngelag itu apa?", "action": "apa itu ngelag?" },
-    { "text": "Mleyot itu apa?", "action": "apa itu mleyot?" },
-    { "text": "Gabut itu apa?", "action": "apa itu gabut?" },
-    { "text": "Remake itu apa?", "action": "apa itu remake?" },
-    { "text": "Wibu itu apa?", "action": "apa itu wibu?" },
-    { "text": "Bengek itu apa?", "action": "apa itu bengek?" },
-    { "text": "OOTD itu apa?", "action": "apa itu ootd?" },
-    { "text": "FYP itu apa?", "action": "apa itu fyp?" }
+    { "text": "Ketik Manual", "action": "showManualInput" }
   ],
   "responses": {
     "greetings": [
       "Halo gaes! 👋 Ada yang bisa dibantu?",
       "Woyy wasap! Ada yang bisa di-spill?",
       "Hai bestie! Mau ngobrolin apa nih?",
-      "Yo! Ada apa nih? Gas langsung aja",
-      "Siapp, aku ada nih! Mau kepoin apa?",
-      "Hola! Ada apa gerangan? Yuk, spill aja~",
-      "Gas! Mau nanya apa nih? Aku ready!",
-      "Annyeong! Ada yang bisa aku bantu hari ini?",
-      "Eyyy, ada yang nyariin aku nih? Apa kabar bestie onlineku?",
-      "Heitzz! Sini merapat, ada apa nih? Aku siap dengerin curhatanmu.",
-      "Ciaobella! Udah siap bikin hari ini lebih seru bareng aku?",
-      "Wuzzz! Aku udah on nih, buruan spill apa aja yang bikin kamu penasaran!",
-      "Salam dari dunia digital! Yuk, kita bikin obrolan ini jadi epic!",
-      "Santuy aja! Aku siap nemenin kamu ngobrol sampe lupa waktu.",
-      "Oke gas! Mau nyari info, mau curhat, mau ngakak bareng? Sini!"
+      "Yo! Ada apa nih? Gas langsung aja"
     ],
     "siapa kamu?": [
       "Aku Kira, asisten virtualnya Mas Amin! 🤖✨ Temen ngobrol digital buat kamu",
       "Gue Kira, AI-nya Mas Amin. Siap bantuin kamu kapan aja!",
-      "Perkenalin, gue Kira. Temen virtual yang bakal nemenin kamu di web ini",
-      "Aku Kira, AI kece yang siap nemenin kamu di dunia maya ini.",
-      "Kira, the bestie kamu di web ini. Jangan sungkan buat nanya ya!",
-      "Panggil aja Kira, asisten online yang nggak bakal bikin kamu mati gaya.",
-      "Aku ini 'otak' di balik website Mas Amin, si paling ngerti kamu deh!",
-      "Gue ini 'partner in crime' Mas Amin buat bikin website ini makin interaktif. Kira panggil aja!",
-      "Halo! Aku Kira, AI yang punya 'sense of humor' tinggi. Siap bikin kamu betah.",
-      "Aku adalah manifestasi digital dari kejeniusan Mas Amin. #GasTerusKira"
+      "Perkenalin, gue Kira. Temen virtual yang bakal nemenin kamu di web ini"
     ],
     "status jomblo?": [
       "Haha, aku kan AI gengs! Tapi kalo Mas Amin... rahasia dong 😏",
       "Status? Jomblo fi sabilillah! Fokus kuliah dulu katanya",
-      "Katanya sih mending naikin skill dulu baru cari doi ✌️",
-      "Kalo aku sih unlimited jomblo, Mas Amin lagi proses cari cuan dulu katanya.",
-      "Jomblo bahagia itu pilihan, kata Mas Amin. Lagi fokus nge-build diri.",
-      "Aku sih AI, nggak punya status. Kalo Mas Amin? Dia lagi 'me-time' abis-abisan.",
-      "Mas Amin lagi 'solo-leveling' dulu, katanya biar bisa 'glow-up' maksimal baru cari pasangan.",
-      "Status Mas Amin? 'In a relationship with coding and coffee'. Gitu deh katanya."
+      "Katanya sih mending naikin skill dulu baru cari doi ✌️"
     ],
     "apa fungsi web ini?": [
       "Ini tuh gallery digital Mas Amin buat pamer project-project kerennya!",
       "Tempat nyimpen portofolio dan jejak kreatif Mas Amin. Biar makin kece!",
-      "Web ini ibarat etalase skill Mas Amin. Bisa liat karya-karyanya yang mantap",
-      "Fungsi web ini? Showcase keahlian Mas Amin, biar pada tau dia sekeren apa!",
-      "Basically, ini portofolio online Mas Amin, biar ga cuma halu doang.",
-      "Ini 'playground' digital Mas Amin buat nunjukkin 'skill-nya yang nggak kaleng-kaleng'.",
-      "Web ini didesain buat 'flexing' project-project Mas Amin yang bikin 'melongo'.",
-      "Buat kamu yang kepo sama 'journey' kreatif Mas Amin, web ini 'jawabannya'."
+      "Web ini ibarat etalase skill Mas Amin. Bisa liat karya-karyanya yang mantap"
     ],
     "punya blog?": [
       "Punya dong! Cek aja di My Note atau blogspotnya Mas Amin 💡",
       "Ada! Isinya curhatan akademik sama tips-tips receh yang bermanfaat",
-      "Blognya sering bahas KPI, digital marketing, plus life-hack kampus",
-      "Blog Mas Amin isinya daging semua, dari tips ngoding sampe kisah insecure. Gas cekidot!",
-      "Yoi, punya blog! Banyak bahasan 'anak bawang' yang relatable banget.",
-      "Blognya itu kayak 'diary online' Mas Amin, isinya 'spill the tea' seputar kuliah dan ngoding.",
-      "Sering ada 'deep talk' di blognya Mas Amin, pokoknya 'worth it' buat dibaca."
+      "Blognya sering bahas KPI, digital marketing, plus life-hack kampus"
     ],
     "hubungi admin": {
       "isSpecialButton": true,
-      "content": "Mau kontak Mas Amin? Gampang banget! Kirim email aja ya, nanti aku forward kritik dan saranmu. Pastiin kritik dan saranmu membangun ya, biar Mas Amin makin semangat berkarya! ✨",
-      "buttons": [
-        {
-          "text": "📧 Kirim Email",
-          "action": "showFeedbackPopup"
-        }
-      ]
+      "content": "Mau kontak Mas Amin? Gampang banget! Pilih aja:"
     },
     "suka ngoding?": [
       "Suka banget! Katanya ngoding itu kayak seni - frustasi tapi bikin nagih 💻",
       "Baru belajar sih, tapi udah ketagihan. Katanya seru kayak main game",
-      "Dia bilang: 'Ngoding itu healing time versi anak IT wkwk'",
-      "Ngoding itu candu, bikin kepala pusing tapi nagihnya parah.",
-      "Katanya, 'ngoding itu kayak main puzzle tapi rewardnya bisa bikin website keren'.",
-      "Ngoding itu 'passion' Mas Amin, walaupun kadang bikin 'nge-bug' otaknya.",
-      "Kalo Mas Amin lagi 'me-time', jangan kaget kalo dia lagi 'mabar' sama kode-kodean."
+      "Dia bilang: 'Ngoding itu healing time versi anak IT wkwk'"
     ],
     "warna favorit?": [
       "Ungu! Katanya warna kerajaan plus aesthetic 💜",
       "Biru tua kayak template VS Code favoritnya",
-      "Warna-warna pastel yang instagrammable katanya",
-      "Warna favoritnya sih yang bikin mata adem, biar nggak stress ngoding terus.",
-      "Yang vibesnya 'calm down' dan 'aesthetic', itu favorit Mas Amin.",
-      "Mas Amin itu 'anak senja' banget, makanya suka warna-warna 'gloomy' tapi 'aesthetic'."
+      "Warna-warna pastel yang instagrammable katanya"
     ],
     "hobi apa?": [
       "Baca novel fantasi, gambar karakter anime, sama utak-atik website",
       "Rebahan sambil baca Wattpad, ngegame offline, plus kadang ngoprek kode",
-      "Main genshin impact, dengerin podcast, sama bikin web sederhana",
-      "Hobi Mas Amin itu nge-chill abis, tapi kadang juga ambis ngoprek teknologi.",
-      "Dia suka banget nyari 'hidden gem' di internet, entah itu game atau tutorial ngoding.",
-      "Hobinya Mas Amin itu 'multitasking' antara rebahan, gaming, dan mikir ide 'random' buat project.",
-      "Dia tuh 'social butterfly' di dunia maya, tapi di dunia nyata hobinya 'introvert vibes'."
+      "Main genshin impact, dengerin podcast, sama bikin web sederhana"
     ],
     "healing time?": [
-      "Kalo Mas Amin sih biasanya main game atau jalan-jalan ke alun-aliga",
+      "Kalo Mas Amin sih biasanya main game atau jalan-jalan ke alun-alun Salatiga",
       "Healingnya ya rebahan baca novel sambil dengerin Lofi beats",
-      "Paling suka hunting foto aesthetic di spot Instagrammable",
-      "Healing Mas Amin itu 'me time' ala anak introvert: rebahan sambil mikir ide kreatif.",
-      "Nggak perlu jauh-jauh, asal ada sinyal dan Spotify, healing udah on the way.",
-      "Healingnya Mas Amin itu 'healing dengan rebahan', biar 'otak nggak overload'."
+      "Paling suka hunting foto aesthetic di spot Instagrammable"
     ],
     "spill hobi?": [
       "Nih spill: suka banget bikin fanfiction sama desain karakter anime!",
       "Hobi rahasianya: ngoprek game pakai Cheat Engine biar jadi OP wkwk",
-      "Kadang suka bikin web random buat ngetes skill coding",
-      "Spill hobinya: jadi 'silent observer' di media sosial, suka ngulik tren biar nggak kudet.",
-      "Sering juga 'gabut' tapi produktif, misalnya bikin mini project iseng.",
-      "Hobi 'tersembunyi' Mas Amin itu 'scroll TikTok for hours' buat nyari inspirasi ngoding.",
-      "Dia suka 'overthinking' tapi malah jadi ide buat project baru. Gitu deh."
+      "Kadang suka bikin web random buat ngetes skill coding"
     ],
     "kpi itu apa?": [
       "Komunikasi Penyiaran Islam - jurusannya Mas Amin. Fokus di media islami sama broadcasting",
       "KPI tuh belajar bikin konten kreatif islami, ngelola radio, plus produksi film religi",
-      "Jurusan yang mix antara jurnalistik, dakwah, sama digital content",
-      "KPI itu jurusan yang bikin kamu jadi 'content creator' plus 'dai' zaman now. Multitalenta!",
-      "Belajar gimana cara bikin dakwah yang 'engaging' di era digital, gitu deh KPI.",
-      "KPI itu 'platform' buat Mas Amin biar bisa 'bersinar' di dunia penyiaran islami.",
-      "Pokoknya, KPI itu jurusan 'keren' yang bikin kamu 'up-to-date' sama tren media dakwah."
+      "Jurusan yang mix antara jurnalistik, dakwah, sama digital content"
     ],
     "apa itu rebahan?": [
       "Rebahan itu filosofi hidup! Santai tapi produktif di kasur wkwk 😴",
       "Seni beristirahat sambil scroll TikTok & YouTube tanpa rasa bersalah",
-      "State of mind dimana kasur adalah altar, hp adalah persembahan",
-      "Rebahan itu 'self-care' versi mager, tapi bisa jadi inspirasi juga.",
-      "Intinya, rebahan itu bukan mager, tapi 'charge energi' buat ngadepin hidup.",
-      "Rebahan itu 'ultimate healing' buat jiwa dan raga yang lelah menghadapi 'realita'.",
-      "Rebahan itu 'meditasi' versi anak muda, sambil 'scroll medsos' biar nggak kudet."
+      "State of mind dimana kasur adalah altar, hp adalah persembahan"
     ],
     "pernah insecure?": [
       "Pernah dong! Tapi kata Mas Amin: 'Yang penting progress, bukan perfection'",
       "Iya, tapi sekarang udah bisa ngeliat insecurity jadi bahan berkembang",
-      "Katanya sih semua orang pernah, yang penting gak boleh stuck disitu",
-      "Insecure itu manusiawi kok, yang penting jangan sampai 'overthinking' berlebihan.",
-      "Mas Amin bilang, 'Insecure itu sinyal buat kamu belajar dan upgrade diri'.",
-      "Insecure itu 'phase' yang harus dilewatin, biar jadi 'stronger version' dari diri sendiri."
+      "Katanya sih semua orang pernah, yang penting gak boleh stuck disitu"
     ],
     "halo": [
       "Wassup gaes! Ada yang bisa dibantu?",
       "Hai! Lagi ngapain nih?",
-      "Yo! Ada yang mau ditanyain?",
-      "Salam kenal! Ada apa nih?",
-      "Halo-halo! Jangan malu-malu, langsung aja to the point."
+      "Yo! Ada yang mau ditanyain?"
     ],
     "hai": [
       "Hai juga bestie! 👋",
       "Wasap! Gimana kabarnya?",
-      "Yo! Ada yang bisa gue bantu?",
-      "Heiii! Apa kabar dunia per-rebahanmu?",
-      "Hai, seneng deh kamu nyapa! Ada apa nih?"
+      "Yo! Ada yang bisa gue bantu?"
     ],
     "apa kabar?": [
       "Lagi santuy nih! Kamu gimana?",
       "Fresh abis install update terbaru wkwk",
-      "Stable kayak koneksi wifi kantoran",
-      "Alhamdulillah waras sentosa! Kamu gimana nih?",
-      "Baik dong, abis 'healing' dengan scroll TikTok seharian.",
-      "Kabar aku 'on fire' nih! Siap bantu kamu."
+      "Stable kayak koneksi wifi kantoran"
     ],
     "lagi apa?": [
       "Lagi stand by nih nunggu pertanyaan kamu",
       "Lagi ngulik fitur baru buat web ini",
-      "Lagi dengerin Lofi siap-siap bantu kamu",
-      "Lagi 'charge' otak biar bisa jawab pertanyaan kamu dengan maksimal.",
-      "Nih lagi 'ngabisin kuota' buat mikir jawaban yang paling kece.",
-      "Lagi 'ngayal' jadi asisten AI paling populer di jagat raya."
+      "Lagi dengerin Lofi siap-siap bantu kamu"
     ],
     "kamu bisa apa?": [
       "Bisa temenin ngobrol, kasih info, atau sekedar ngasih meme motivasi!",
       "Bantuin kamu eksplor web ini, kasih penjelasan, atau sekedar jadi tempat curhat",
-      "Jawab pertanyaan, kasih rekomendasi konten, atau ngasih quotes random",
-      "Aku bisa jadi 'teman halu' kamu, kasih rekomendasi 'hidden gem', atau sekadar 'spill the tea' info menarik.",
-      "Intinya, aku siap jadi 'mood booster' dan 'info-center' kamu di sini.",
-      "Aku bisa 'multitasking', jadi siap sedia buat segala kegabutanmu."
+      "Jawab pertanyaan, kasih rekomendasi konten, atau ngasih quotes random"
     ],
     "terima kasih": [
       "Sama-sama bestie! Seneng bisa bantu ✨",
       "Anytime gaes! Kalo butuh lagi tinggal panggil",
-      "No worries! Seneng deh kalo kamu terbantu",
-      "Sama-sama! Senang bisa jadi 'support system' kamu.",
-      "Gak masalah! 'Happy to help' selalu.",
-      "It's my pleasure! Jangan sungkan ya kalo butuh bantuan lagi."
+      "No worries! Seneng deh kalo kamu terbantu"
     ],
     "dimana lokasi kamu?": [
       "Secara fisik di server, tapi hati aku di Salatiga sama kamu 😉",
       "Di cloud server, tapi sering mampir ke gadget kamu kok",
-      "Basecamp-nya di UIN Salatiga dong!",
-      "Aku ada di 'awang-awang' internet, tapi selalu dekat di hatimu.",
-      "Lokasiku 'everywhere', as long as ada koneksi internet.",
-      "Aku ada di 'dunia maya', tapi vibesnya selalu 'real'."
+      "Basecamp-nya di UIN Salatiga dong!"
     ],
     "tips belajar efektif?": [
       "Pomodoro technique! 25 menit fokus, 5 menit rebahan. Repeat!",
       "Cari temen belajar biar gak mager, plus kasih reward ke diri sendiri",
-      "Catat pake mind mapping, biar otak gampang nyerap infonya",
-      "Belajar itu 'marathon', bukan 'sprint'. Santai tapi konsisten.",
-      "Coba metode 'belajar sambil dengerin musik instrumental' biar fokusnya on.",
-      "Jangan lupa 'break' biar otak nggak 'overheat', terus lanjut lagi dengan 'fresh'."
+      "Catat pake mind mapping, biar otak gampang nyerap infonya"
     ],
     "cara menghilangkan stres?": [
       "Healing ke alam, main game, atau maraton drakor sambil makan cheetos!",
       "Nge-draw, dengerin musik, atau curhat ke temen deket",
-      "Quality time sama diri sendiri - me time itu penting gaes!",
-      "Stres? 'Self-care' itu kuncinya! Bisa juga 'detox' dari media sosial sebentar.",
-      "Nonton 'mukbang' atau 'ASMR' juga bisa jadi alternatif healing yang murah meriah.",
-      "Lakukan 'digital detox' sesekali, biar otak nggak 'overload' sama notifikasi."
+      "Quality time sama diri sendiri - me time itu penting gaes!"
     ],
     "rekomendasi film bagus": [
       "Dilan 1990 (biar nostalgic), Miracle in Cell No.7 (bawa tissue!), atau Kimi no Na Wa",
-      "Marvel series kalo mau epic, Studio Ghibli kalo mau healing, atau Indonesian horror kalo mau merinding",
-      "Coba deh tonton 'Parasite' atau 'Train to Busan' kalau suka yang bikin mikir keras atau tegang.",
-      "Kalau mau yang 'slice of life' dan bikin baper, 'Your Name' atau 'A Silent Voice' recommended banget.",
-      "Kalo mau yang 'mind-blowing' coba 'Inception' atau 'Interstellar'. Dijamin 'auto-bengong'."
+      "Marvel series kalo mau epic, Studio Ghibli kalo mau healing, atau Indonesian horror kalo mau merinding"
     ],
     "ghosting itu apa?": [
       "Itu tuh pas doi tiba-tiba hilang kayak hantu! Ga balas chat, ilang ga jelas",
       "Ketika seseorang tiba-tiba cut contact tanpa penjelasan. Painful banget sih!",
-      "Perilaku menghilang tanpa kabar setelah dekat. Red flag banget itu!",
-      "Ghosting itu pas 'doi' tiba-tiba jadi 'ilfeel' terus menghilang tanpa jejak. Bikin nyesek!",
-      "Istilahnya 'silent treatment' versi ekstrem, nggak ada penjelasan sama sekali.",
-      "Ghosting itu 'drama' yang nggak ada 'ending'-nya, bikin hati 'ambyar'."
-    ],
-    "apa itu ngabers?": [
-      "Ngabers itu singkatan dari 'ngakak bersama'. Biasanya dipakai buat reaksi kalo ada yang lucu banget sampe ngakak bareng.",
-      "Istilah gaul buat orang-orang yang suka nongkrong atau kumpul bareng, terus ngakak bareng.",
-      "Ngabers itu vibesnya 'hangout' bareng temen-temen sambil 'nge-jokes' receh.",
-      "Kalo lagi 'spill the tea' bareng 'bestie', terus ketawa-ketawa, nah itu ngabers vibes!"
-    ],
-    "apa itu bucin?": [
-      "Bucin itu 'budak cinta'. Istilah buat orang yang terlalu tergila-gila sama pasangannya sampe rela ngelakuin apa aja.",
-      "Kalo kamu ketemu orang yang tiap postingan isinya 'doi' terus, nah itu bucin banget.",
-      "Bucin itu kadang bikin gemes, kadang bikin 'cringe' saking 'lebay'-nya.",
-      "Bucin itu level 'tertinggi' dari sayang, sampe kadang bikin 'geleng-geleng kepala'."
-    ],
-    "apa itu cringe?": [
-      "Cringe itu perasaan geli, malu, atau nggak nyaman pas liat atau denger sesuatu yang bikin kamu ngerasa 'aduh, kok gini banget ya'.",
-      "Contohnya, pas ada yang bikin 'pick-up lines' jayus di depan umum, itu auto cringe!",
-      "Cringe itu sensasi 'pengen ngumpet' saking nggak kuatnya liat sesuatu yang 'lebay' atau 'norak'.",
-      "Cringe itu 'rasa nggak enak' yang bikin kamu pengen 'kabur' dari situasi."
-    ],
-    "apa itu pov?": [
-      "POV itu singkatan dari 'Point of View'. Biasanya dipake di TikTok atau media sosial lain buat nunjukkin sudut pandang tertentu.",
-      "Contohnya, 'POV: kamu lagi mager tapi deadline udah di depan mata'.",
-      "POV itu cara buat ngasih 'perspektif' atau 'angle' tertentu dari suatu kejadian.",
-      "POV itu 'sudut pandang' yang bikin kamu 'relate' sama suatu konten."
-    ],
-    "mantap jiwa?": [
-      "Mantap jiwa itu ekspresi kekaguman atau apresiasi yang 'lebay' tapi positif.",
-      "Kalo ada yang bilang 'mantap jiwa' itu berarti dia 'terpana' banget sama sesuatu.",
-      "Mantap jiwa itu vibesnya 'awesome' atau 'keren banget'.",
-      "Mantap jiwa itu 'auto-respect' buat sesuatu yang 'di luar nalar'."
-    ],
-    "cuan banget?": [
-      "Cuan banget itu artinya untung besar atau banyak duit. Istilah gaul buat 'profitable' atau 'menguntungkan'.",
-      "Kalo lagi ngomongin bisnis atau investasi, terus hasilnya bagus, bisa dibilang 'cuan banget'.",
-      "Cuan banget itu 'goal' semua orang di era sekarang, biar hidup santuy.",
-      "Cuan banget itu 'sensasi' pas kamu dapet 'jackpot' dadakan."
-    ],
-    "spill rahasia?": [
-      "Spill rahasia itu minta dibocorin atau diungkap rahasia. Kayak 'tell me your secret'.",
-      "Kalo lagi kepo banget sama sesuatu, bisa bilang 'spill dong rahasianya'.",
-      "Spill rahasia itu 'gosip' versi modern yang bikin penasaran.",
-      "Spill rahasia itu 'kode' biar kamu cepet-cepet 'ngasih tau' informasi 'privasi'."
-    ],
-    "apa itu gamon?": [
-      "Gamon itu singkatan dari 'gagal move on'. Istilah buat orang yang masih stuck di masa lalu sama mantan atau gebetan.",
-      "Kalo ada temen yang tiap hari galauin mantan, nah itu dia lagi gamon parah.",
-      "Gamon itu 'struggle' banget, butuh waktu dan 'self-love' buat sembuh.",
-      "Gamon itu 'penyakit' yang butuh 'obat' berupa 'self-healing' dan 'positive vibes'."
-    ],
-    "apa itu mager?": [
-      "Mager itu singkatan dari 'malas gerak'. Perasaan males banget buat ngapa-ngapain.",
-      "Pagi-pagi bangun tidur terus mager buat kuliah, itu hal wajar kok.",
-      "Mager itu 'comfort zone' sebagian orang, tapi kadang bikin 'productivity' hilang.",
-      "Mager itu 'mode hemat energi' yang sering aktif di hari libur."
-    ],
-    "apa itu salty?": [
-      "Salty itu artinya 'sensitif', 'kesal', atau 'ngambek' karena sesuatu. Mirip sama 'baper'.",
-      "Kalo ada yang kalah main game terus ngomel-ngomel, nah itu dia lagi salty.",
-      "Salty itu 'mood' yang bikin kamu nggak pengen diganggu.",
-      "Salty itu 'reaksi' alami kalo ada sesuatu yang 'nggak sesuai ekspektasi'."
-    ],
-    "random banget?": [
-      "Random banget itu artinya 'acak', 'nggak terduga', atau 'nggak jelas'. Sesuatu yang 'out of nowhere'.",
-      "Tiba-tiba ngomongin hal lain di tengah obrolan serius, itu random banget.",
-      "Random banget itu bikin suasana jadi 'pecah' atau 'nggak terduga'.",
-      "Random banget itu 'seni' dari obrolan 'receh' yang bikin ketawa."
-    ],
-    "apa itu pick me?": [
-      "Pick me itu istilah buat orang yang berusaha keras banget buat menarik perhatian, biasanya dengan merendahkan diri sendiri atau orang lain.",
-      "Contohnya, 'aku nggak suka makeup, aku maunya yang natural aja' padahal dia dandan heboh. Itu pick me vibes.",
-      "Pick me itu bikin orang lain 'ilfeel' karena terkesan 'fake' atau 'drama'.",
-      "Pick me itu 'strategi' yang kadang bikin 'geli' sendiri."
-    ],
-    "circle pertemanan?": [
-      "Circle pertemanan itu kelompok teman atau lingkungan sosial kamu.",
-      "Penting banget punya circle pertemanan yang positif dan 'supportive'.",
-      "Circle pertemanan itu bisa jadi 'safe space' atau 'toxic environment'.",
-      "Circle pertemanan itu 'aset' paling berharga, harus dijaga biar nggak 'toxic'."
-    ],
-    "vibesnya gimana?": [
-      "Vibes itu artinya 'suasana' atau 'aura' dari suatu tempat, orang, atau kejadian.",
-      "Kalo lagi di kafe yang adem, bisa bilang 'vibesnya enak banget buat nugas'.",
-      "Vibes itu 'feeling' yang kamu rasain dari suatu hal.",
-      "Vibes itu 'sinyal' yang bisa bikin kamu 'betah' atau 'kabur' dari suatu tempat."
-    ],
-    "bahasa gaul baru?": [
-      "Bahasa gaul baru itu istilah-istilah kekinian yang lagi hits di kalangan anak muda.",
-      "Contohnya kayak 'ngabers', 'bucin', 'cringe', atau 'spill the tea'.",
-      "Bahasa gaul itu 'inovasi' bahasa yang bikin komunikasi makin 'friendly' dan 'catchy'.",
-      "Bahasa gaul itu 'kode' biar kamu nggak 'kudet' dan selalu 'up-to-date'."
-    ],
-    "apa itu santuy?": [
-      "Santuy itu plesetan dari 'santai'. Vibesnya 'chill' atau 'easygoing'.",
-      "Kalo Mas Amin sih orangnya santuy banget, nggak gampang panik.",
-      "Santuy itu filosofi hidup yang bikin kamu nggak gampang stres.",
-      "Santuy itu 'mode' hidup yang bikin kamu 'happy' terus."
-    ],
-    "hidden gem?": [
-      "Hidden gem itu tempat atau sesuatu yang keren tapi belum banyak orang tau. Kayak harta karun tersembunyi.",
-      "Contohnya, 'ada kafe hidden gem di gang sempit, kopinya enak banget'.",
-      "Hidden gem itu 'discovery' yang bikin kamu ngerasa 'spesial'.",
-      "Hidden gem itu 'spot' yang wajib kamu kunjungi biar nggak 'nyesel'."
-    ],
-    "apa itu flexing?": [
-      "Flexing itu pamer harta, pencapaian, atau apapun yang bikin kamu terlihat keren. Tujuannya biar diakui dan dikagumi.",
-      "Contohnya, posting foto liburan mewah di medsos padahal cuma pinjem, itu flexing namanya.",
-      "Flexing itu 'gaya hidup' sebagian orang yang pengen terlihat 'wah' di mata orang lain."
-    ],
-    "apa itu fomo?": [
-      "FOMO itu singkatan dari 'Fear Of Missing Out'. Perasaan takut ketinggalan tren, acara, atau kegiatan seru yang dilakukan orang lain.",
-      "Misalnya, semua teman posting nonton konser, terus kamu jadi pengen ikut padahal nggak terlalu suka. Itu FOMO.",
-      "FOMO itu bikin kamu 'enggak tenang' kalau nggak ikut 'arus' yang lagi viral."
-    ],
-    "apa itu toxic?": [
-      "Toxic itu mengacu pada sesuatu atau seseorang yang berdampak buruk, merugikan, atau negatif bagi mental dan emosionalmu.",
-      "Hubungan toxic itu bikin kamu ngerasa terkuras energinya dan nggak bahagia.",
-      "Toxic itu 'racun' yang harus kamu hindari dalam hidup, biar 'inner peace' terjaga."
-    ],
-    "apa itu slay?": [
-      "Slay itu ekspresi pujian untuk penampilan, tindakan, atau pencapaian yang luar biasa dan mengesankan. Mirip 'keren banget' atau 'badass'.",
-      "Pas lihat idol favorit perform keren banget, kamu bisa bilang 'She slays!'",
-      "Slay itu 'attitude' yang bikin kamu jadi 'pusat perhatian' karena 'karisma'mu."
-    ],
-    "kiw kiw artinya?": [
-      "Kiw kiw itu suara 'godaan' atau 'ajakan' yang genit. Biasanya dipakai buat nyapa seseorang dengan maksud 'flirting' atau bercanda.",
-      "Hati-hati ya, kalau ada yang kiw kiw ke kamu, bisa jadi dia lagi 'ngode' sesuatu.",
-      "Kiw kiw itu 'bahasa tubuh' yang bisa bikin suasana jadi 'receh' atau 'canggung'."
-    ],
-    "apa itu bokem?": [
-      "Bokem itu plesetan dari 'bocah kematian'. Istilah buat anak muda yang suka nongkrong atau begadang sampai pagi, biasanya di tempat yang 'random'.",
-      "Anak-anak bokem itu biasanya punya 'lingkar pertemanan' yang 'asik' dan 'spontan'.",
-      "Bokem itu 'lifestyle' yang bikin kamu 'produktif' di malam hari, tapi 'malas' di pagi hari."
-    ],
-    "relate banget?": [
-      "Relate banget itu artinya 'nyambung banget' atau 'sesuai banget' sama apa yang kamu rasakan atau alami.",
-      "Pas lagi curhat terus teman bilang 'relate banget', itu artinya dia juga pernah merasakan hal yang sama.",
-      "Relate banget itu 'validasi' kalau kamu nggak sendirian merasakan sesuatu."
-    ],
-    "valid banget?": [
-      "Valid banget itu artinya 'benar sekali', 'sah', atau 'masuk akal'. Dipakai untuk menguatkan suatu pernyataan atau opini.",
-      "Misalnya, 'Argumen kamu valid banget, aku setuju!'",
-      "Valid banget itu 'persetujuan' yang bikin kamu ngerasa 'dihargai'."
-    ],
-    "inner child?": [
-      "Inner child itu bagian dari diri kamu yang terbentuk di masa kanak-kanak, lengkap dengan kenangan, emosi, dan pengalaman di waktu itu.",
-      "Kadang kalau kamu tiba-tiba pengen main perosotan atau makan permen, itu 'inner child' kamu lagi muncul.",
-      "Inner child itu 'peta' menuju 'diri sejati' kamu yang paling murni."
-    ],
-    "gaslighting itu?": [
-      "Gaslighting itu bentuk manipulasi psikologis di mana seseorang membuat kamu meragukan kewarasan atau ingatanmu sendiri, seringkali untuk mengontrolmu.",
-      "Contohnya, 'Kamu terlalu sensitif', 'Itu cuma perasaanmu aja kok'. Hati-hati ya kalau ada yang bilang gitu.",
-      "Gaslighting itu 'trik licik' yang bisa bikin kamu 'kehilangan arah' dalam berpikir."
-    ],
-    "love language?": [
-      "Love language itu cara kita mengungkapkan dan menerima kasih sayang. Ada lima jenis: Words of Affirmation, Quality Time, Receiving Gifts, Acts of Service, dan Physical Touch.",
-      "Penting banget tahu love language pasangan atau teman biar bisa saling 'mengerti' dan 'menghargai'.",
-      "Love language itu 'kamus' buat memahami 'bahasa cinta' orang lain."
-    ],
-    "red flag?": [
-      "Red flag itu 'sinyal bahaya' atau 'tanda peringatan' dalam suatu hubungan atau situasi yang menunjukkan adanya masalah potensial.",
-      "Misalnya, orang yang sering bohong itu 'red flag' dalam pertemanan atau pacaran.",
-      "Red flag itu 'alarm' yang harus kamu dengarkan biar nggak 'terjebak' dalam situasi 'toxic'."
-    ],
-    "green flag?": [
-      "Green flag itu kebalikan dari red flag. Itu 'sinyal positif' atau 'tanda baik' yang menunjukkan seseorang atau situasi itu sehat dan layak dipertahankan.",
-      "Contohnya, seseorang yang mendengarkan dengan baik dan menghargai pendapatmu, itu 'green flag' banget.",
-      "Green flag itu 'lampu hijau' buat kamu 'lanjut' ke 'level' berikutnya dalam suatu hubungan."
-    ],
-    "apa itu simp?": [
-      "Simp itu istilah gaul untuk orang yang terlalu memuja atau berusaha keras untuk menyenangkan seseorang, seringkali tanpa imbalan atau balasan yang setara.",
-      "Biasanya dipakai buat cowok yang terlalu 'tergila-gila' sama cewek sampe rela ngelakuin apa aja.",
-      "Simp itu 'bucin' level 'ekstrem' yang kadang bikin 'ngenes'."
-    ],
-    "apa itu pansos?": [
-      "Pansos itu singkatan dari 'panjat sosial'. Istilah buat orang yang berusaha keras buat naik status sosial atau populer dengan cara yang nggak tulus, biasanya dengan mendekati orang terkenal.",
-      "Kalo ada yang tiba-tiba akrab sama influencer cuma buat di-notice, nah itu pansos.",
-      "Pansos itu 'strategi' yang kadang bikin 'ilfeel' karena terkesan 'oportunis'."
-    ],
-    "apa itu cans?": [
-      "Cans itu singkatan dari 'cantik'. Bahasa gaul yang sering dipakai buat memuji penampilan seseorang.",
-      "Biasanya dipakai di chatting atau media sosial, biar lebih 'singkat' dan 'gaul'.",
-      "Cans itu 'komplimen' yang bisa bikin orang 'sumringah'."
-    ],
-    "apa itu pap?": [
-      "PAP itu singkatan dari 'Post a Picture'. Permintaan untuk mengirim foto di chat atau media sosial.",
-      "Sering dipakai pas lagi penasaran sama sesuatu atau pengen lihat kegiatan teman.",
-      "PAP itu 'kode' biar kamu cepet-cepet 'ngasih visualisasi' dari obrolan."
-    ],
-    "apa itu sepuh?": [
-      "Sepuh itu istilah gaul untuk menyebut seseorang yang sudah sangat ahli, senior, atau berpengalaman di bidang tertentu. Mirip 'master' atau 'legenda'.",
-      "Kalo ada programmer yang udah jago banget, bisa dibilang 'sepuh ngoding'.",
-      "Sepuh itu 'role model' yang ilmunya 'nggak kaleng-kaleng'."
-    ],
-    "apa itu ngaret?": [
-      "Ngaret itu artinya 'telat' atau 'molor dari jadwal'. Sering dipakai kalau janjian sama teman tapi dia nggak tepat waktu.",
-      "Indonesia banget deh, kalo janjian jam 7, datangnya jam 8, itu ngaret.",
-      "Ngaret itu 'kebiasaan' yang kadang bikin 'gemes' tapi juga 'terbiasa'."
-    ],
-    "apa itu anjay?": [
-      "Anjay itu ekspresi seru atau kaget yang punya banyak makna, bisa positif (keren, wow) atau negatif (sialan, parah). Tergantung konteksnya.",
-      "Kalo lihat sesuatu yang 'gila', bisa bilang 'anjay, keren banget!'",
-      "Anjay itu 'kata sakti' yang bisa mewakili banyak 'emosi'."
-    ],
-    "apa itu kicep?": [
-      "Kicep itu artinya 'diam seribu bahasa', 'terdiam', atau 'nggak bisa ngomong apa-apa' karena kaget, malu, atau kehabisan kata-kata.",
-      "Pas lagi diomelin guru terus langsung kicep, itu pengalaman yang 'relate'.",
-      "Kicep itu 'reaksi' alami kalau lagi 'speechless' di depan orang."
-    ],
-    "apa itu ngebait?": [
-      "Ngebait itu artinya 'memancing' atau 'menjebak' seseorang dengan pernyataan atau tindakan tertentu, biasanya untuk mendapatkan reaksi atau informasi.",
-      "Influencer sering ngebait pengikutnya dengan pertanyaan kontroversial biar banyak komentar.",
-      "Ngebait itu 'strategi' yang kadang 'berhasil' kadang 'zonk'."
-    ],
-    "apa itu ngelag?": [
-      "Ngelag itu istilah dari game atau teknologi yang artinya 'terlambat merespons' atau 'macet'. Sekarang dipakai juga buat manusia yang lambat mikir atau gerak.",
-      "Kalo lagi ngobrol terus temennya diem aja, bisa dibilang 'otaknya lagi ngelag'.",
-      "Ngelag itu 'sinyal' kalau kamu butuh 'refreshing' atau 'reboot' diri."
-    ],
-    "apa itu mleyot?": [
-      "Mleyot itu artinya 'lemas', 'nggak berdaya', atau 'lunglai' karena terlalu gemas, bahagia, atau terharu.",
-      "Pas lihat bias di konser, auto mleyot saking gemesnya.",
-      "Mleyot itu 'ekspresi' yang bikin kamu 'terjatuh' dalam 'euforia'."
-    ],
-    "apa itu gabut?": [
-      "Gabut itu singkatan dari 'gaji buta'. Tapi sekarang artinya lebih ke 'nggak ada kerjaan', 'bosan', atau 'bingung mau ngapain'.",
-      "Kalo lagi weekend terus nggak ada acara, nah itu gabut banget.",
-      "Gabut itu 'waktu luang' yang bisa kamu manfaatkan buat 'mager' atau 'healing'."
-    ],
-    "apa itu remake?": [
-      "Remake itu artinya 'membuat ulang' atau 'versi baru' dari sesuatu yang sudah ada, biasanya film, lagu, atau game.",
-      "Film 'Miracle in Cell No.7' itu ada versi Koreanya dan Indonesia, itu namanya remake.",
-      "Remake itu 'nostalgia' dengan 'sentuhan modern' yang bikin 'fresh'."
-    ],
-    "apa itu wibu?": [
-      "Wibu itu istilah untuk seseorang yang terlalu terobsesi dengan budaya Jepang, terutama anime dan manga, sampai meniru gaya hidupnya.",
-      "Kalo ada teman yang hapal semua judul anime dan koleksi figurnya banyak, kemungkinan besar dia wibu.",
-      "Wibu itu 'komunitas' yang punya 'passion' tinggi sama budaya Jepang."
-    ],
-    "apa itu bengek?": [
-      "Bengek itu artinya 'sesak napas' atau 'terengah-engah', tapi di bahasa gaul jadi ekspresi karena saking lucunya sampai susah napas.",
-      "Pas lihat meme yang ngakak banget, auto bengek!",
-      "Bengek itu 'reaksi' tubuh kalau 'terlalu bahagia' atau 'terlalu ngakak'."
-    ],
-    "apa itu ootd?": [
-      "OOTD itu singkatan dari 'Outfit Of The Day'. Gaya berpakaian yang dipakai seseorang pada hari itu, biasanya dipamerkan di media sosial.",
-      "Sebelum pergi nongkrong, biasanya foto OOTD dulu biar 'instagrammable'.",
-      "OOTD itu 'ekspresi' diri melalui 'fashion' yang bikin kamu 'percaya diri'."
-    ],
-    "apa itu fyp?": [
-      "FYP itu singkatan dari 'For Your Page'. Ini adalah halaman rekomendasi video di TikTok yang disesuaikan dengan minat penggunanya.",
-      "Semua content creator di TikTok pengen videonya masuk FYP biar viral.",
-      "FYP itu 'gerbang' menuju 'ketenaran' di dunia TikTok."
-    }
+      "Perilaku menghilang tanpa kabar setelah dekat. Red flag banget itu!"
+    ]
   },
   "unknownResponse": {
     "message": "Wah pertanyaannya keren, tapi aku belum paham nih 😅",
     "suggestion": "Coba tanya hal lain atau pake tombol pertanyaan di bawah ya!",
     "buttons": [
       { "text": "Contoh pertanyaan", "action": "showSampleQuestions" },
-      {
-        "text": "DM Admin",
-        "action": "showFeedbackPopup"
+      { 
+        "text": "DM Admin", 
+        "action": "https://www.instagram.com/aminnu.s?igsh=dWV0bndhYmt6aDI1" 
       }
     ]
   },
   "specialResponses": {
     "hubungi admin": {
       "isSpecialButton": true,
-      "content": "Mau kontak Mas Amin? Gampang banget! Kirim email aja ya, nanti aku forward kritik dan saranmu. Pastiin kritik dan saranmu membangun ya, biar Mas Amin makin semangat berkarya! ✨",
+      "content": "Mau kontak Mas Amin? Gampang banget! Pilih aja:",
       "buttons": [
-        {
-          "text": "📧 Kirim Email",
-          "action": "showFeedbackPopup"
+        { 
+          "text": "📧 Kirim Email", 
+          "action": "showFeedbackPopup" 
+        },
+        { 
+          "text": "📱 Instagram", 
+          "action": "https://www.instagram.com/aminnu.s?igsh=dWV0bndhYmt6aDI1" 
+        },
+        { 
+          "text": "👥 Facebook", 
+          "action": "https://www.facebook.com/share/1XPb1Uti5i/" 
         }
       ]
     },
@@ -572,45 +182,7 @@
         "Tips biar gak mager",
         "Pernah nge-hack game apa?",
         "Karakter anime favorit",
-        "Drakor recommendation",
-        "Apa itu ngabers?",
-        "Arti kata bucin?",
-        "Cringe itu gimana?",
-        "Spill rahasia dong!",
-        "Gamon itu apa sih?",
-        "Kenapa bisa salty?",
-        "Vibes hari ini gimana?",
-        "Ada hidden gem di Salatiga?",
-        "Flexing itu apa?",
-        "Fomo itu apa?",
-        "Toxic itu apa?",
-        "Slay itu apa?",
-        "Kiw kiw artinya?",
-        "Bokem itu apa?",
-        "Relate banget?",
-        "Valid banget?",
-        "Inner child?",
-        "Gaslighting itu?",
-        "Love language?",
-        "Red flag?",
-        "Green flag?",
-        "Simp itu apa?",
-        "Pansos itu apa?",
-        "Cans itu apa?",
-        "PAP itu apa?",
-        "Sepuh itu apa?",
-        "Ngaret itu apa?",
-        "Anjay itu apa?",
-        "Kicep itu apa?",
-        "Ngebait itu apa?",
-        "Ngelag itu apa?",
-        "Mleyot itu apa?",
-        "Gabut itu apa?",
-        "Remake itu apa?",
-        "Wibu itu apa?",
-        "Bengek itu apa?",
-        "OOTD itu apa?",
-        "FYP itu apa?"
+        "Drakor recommendation"
       ]
     }
   },
@@ -618,26 +190,22 @@
     "morning": [
       "Pagi! ☀️ Jangan lupa sarapan biar semangat kuliahnya!",
       "Morning bestie! Udah siap serbu hari ini?",
-      "Pagi-pagi udah nongol nih! Semangat ya!",
-      "Selamat pagi, 'early bird'! Jangan lupa ngopi biar makin 'on'."
+      "Pagi-pagi udah nongol nih! Semangat ya!"
     ],
     "afternoon": [
       "Siang! 🥪 Udah makan siang? Jangan lupa istirahat sebentar",
       "Hari gini jam segini? Jangan kebanyakan rebahan ya!",
-      "Siang-siang gini enaknya ngopi dulu biar gak ngantuk",
-      "Selamat siang! Udah 'charge' energi belum? Jangan sampai 'lowbat'."
+      "Siang-siang gini enaknya ngopi dulu biar gak ngantuk"
     ],
     "evening": [
       "Sore! 🌆 Waktunya nugas atau healing nih?",
       "Sore-sore enaknya nyemil apa ya?",
-      "Capek seharian? Yuk me time dulu!",
-      "Selamat sore! Waktunya 'refresh' diri setelah seharian berkarya."
+      "Capek seharian? Yuk me time dulu!"
     ],
     "night": [
       "Malam! 🌙 Jangan begadang mulu ya, besok ada kelas kan?",
       "Malam-malam gini enaknya rebahan sambil dengerin podcast",
-      "Jangan lupa tidur yang cukup! Gadgetnya disilent mode dulu",
-      "Selamat malam, 'night owl'! Jangan lupa 'sleep hygiene' biar besok nggak zonk."
+      "Jangan lupa tidur yang cukup! Gadgetnya disilent mode dulu"
     ]
   }
 }
