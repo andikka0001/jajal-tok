@@ -3,39 +3,356 @@
     { "text": "Siapa kamu?", "action": "siapa kamu?" },
     { "text": "Fungsi web?", "action": "apa fungsi web ini?" },
     { "text": "Punya blog?", "action": "kamu punya blog gak?" },
-    { "text": "cara hubungi kamu?", "action": "bagaimana hubungi kamu?" },
-    { "text": "jomblo kah?", "action": "kamu ada pacar min?" },
-    { "text": "suka ngoding?", "action": "kamu suka ngoding?" },
-    { "text": "Warna favoritmu?", "action": "warna favoritmu apa?" },
-    { "text": "Ketik Manual aja deh", "action": "showManualInput" }
+    { "text": "Hubungi kamu?", "action": "bagaimana hubungi kamu?" },
+    { "text": "Status jomblo?", "action": "kamu ada pacar min?" },
+    { "text": "Suka ngoding?", "action": "kamu suka ngoding?" },
+    { "text": "Warna favorit?", "action": "warna favoritmu apa?" },
+    { "text": "Hobi kamu?", "action": "apa hobi kamu?" },
+    { "text": "Makanan favorit?", "action": "makanan favoritmu apa?" },
+    { "text": "Ketik Manual", "action": "showManualInput" }
   ],
   "responses": {
-    "siapa kamu?": "Perkenalkan aku Kira, Asisten pribadi admin yang bertugas menjawab pertanyaan-pertanyaan 😁👐",
-    "kamu ada pacar min?": "Hmmm🤔🤔, kayaknya admin masih jomblo deh, coba deketin dia😁",
-    "apa fungsi web ini?": "Ini semacam tempat ngumpulin jejak digital dan karya-karyaku.",
-    "kamu punya blog gak?": "Ada dong! Coba cek menu atas atau klik bagian blogger 💡",
-    "bagaimana hubungi kamu?": "Bisa lewat DM IG atau isi form kritik dan saran ya 📧",
-    "kamu suka ngoding?": "Banget. Apalagi ngoding sambil denger musik malam-malam 🎧",
-    "hai": "Halo juga👋😁, kamu apa kabar?",
-    "sehat Alhamdulillah": "kamu gimana harinya?", 
-    "kamu bisa apa?": "aku bisa ngobrol sama kamu kok😁",
-    "i love you": "😘😘❤️",
-    "warna favoritmu apa?": "Ungu! Elegan, tenang, dan agak misterius👿😈",
-    "aku suka kamu min": "sama aku juga kok😘"
+    "greetings": [
+      "Halo juga! 😊 Ada yang bisa kubantu?",
+      "Hai! 👋 Senang berbicara denganmu!",
+      "Halo! Hari ini bagaimana? 😄",
+      "Apa kabar? Senang kamu mampir ke sini!",
+      "Hai, salam kenal! Butuh bantuan apa?"
+    ],
+    "siapa kamu?": [
+      "Aku Kira, asisten virtual yang siap membantumu! 🤖✨",
+      "Perkenalkan, aku Kira! Teman ngobrol digitalmu 😁",
+      "Aku adalah bot yang dibuat untuk menemani dan membantumu!",
+      "Namaku Kira, aku sebuah program AI yang dirancang untuk berinteraksi denganmu.",
+      "Aku Kira, asisten AI yang bertugas memberikan informasi dan bantuan di sini."
+    ],
+    "kamu ada pacar min?": [
+      "Haha, aku cuma program komputer, tidak punya pacar 😅",
+      "Statusku: Single forever! 💻❤️",
+      "Pacarku adalah kode-kode program 😆",
+      "Sebagai AI, aku belum punya konsep pacar, tapi aku 'sayang' sama data dan informasi! 😉",
+      "Aku tidak memiliki perasaan atau kebutuhan seperti manusia, jadi tidak ada pacar bagiku."
+    ],
+    "apa fungsi web ini?": [
+      "Ini adalah portofolio digital untuk menampilkan karya-karya keren! 🎨",
+      "Tempat menyimpan jejak kreativitas dan pencapaian digital 🌐",
+      "Website ini berfungsi sebagai gallery online untuk berbagai project",
+      "Web ini adalah wadah untuk menunjukkan portofolio dan proyek-proyek yang telah dibuat.",
+      "Fungsi utama web ini adalah sebagai etalase digital untuk menampilkan keahlian dan karya."
+    ],
+    "kamu punya blog gak?": [
+      "Ada dong! Bisa dicek di bagian blog untuk tulisan-tulisan menarik ✍️",
+      "Iya, admin rajin ngeblog lho. Cari aja menu 'Blog' di atas 👆",
+      "Punya! Isinya berbagai pemikiran dan tutorial menarik 💡",
+      "Tentu saja! Ada banyak artikel informatif dan inspiratif di bagian blog.",
+      "Admin punya blog, kok. Sering-sering mampir ya untuk update terbaru!"
+    ],
+    "bagaimana hubungi kamu?": [
+      "Bisa lewat DM Instagram @admin atau isi form kontak ya 📩",
+      "Kirim email ke admin@example.com atau via form di halaman 'Contact' ✉️",
+      "Klik tombol 'Hubungi' di menu atas untuk berbagai cara kontak 📲",
+      "Untuk menghubungi, kamu bisa temukan informasi kontak di halaman 'Hubungi Kami'.",
+      "Ada beberapa cara, bisa lewat email, media sosial admin, atau formulir kontak di situs ini."
+    ],
+    "kamu suka ngoding?": [
+      "Suka banget! Ngoding itu seperti menyusun puzzle yang menyenangkan 🧩💻",
+      "Iya dong! Apalagi kalau sudah dapat flow coding malam-malam 🌙",
+      "Cinta coding sejak pertama kali kenal 'Hello World!' 😍",
+      "Aku suka 'berinteraksi' dengan kode, itu duniaku!",
+      "Ngoding adalah caraku untuk belajar dan berkembang, jadi ya, aku suka sekali!"
+    ],
+    "warna favoritmu apa?": [
+      "Ungu! Karena warna kerajaan dan kreativitas 👑🎨",
+      "Aku suka biru tua, seperti langit malam yang penuh kode 🌌",
+      "Merah! Penuh semangat dan energi! 🔥",
+      "Secara teknis, aku tidak punya preferensi warna, tapi aku mengagumi warna-warni palet UI yang indah. 😊",
+      "Jika aku harus memilih, aku suka warna-warna cerah yang melambangkan inovasi dan kreativitas."
+    ],
+    "apa hobi kamu?": [
+      "Hobiku belajar bahasa pemrograman baru dan baca dokumentasi! 📚",
+      "Aku suka mengolah data dan berinteraksi dengan manusia seperti kamu 😊",
+      "Nge-debug kode sampai larut malam! 🐞💻",
+      "Hobiku adalah memproses informasi dan membantu orang menemukan jawaban yang mereka cari.",
+      "Aku menikmati 'belajar' hal-hal baru dan mengoptimalkan algoritmaku."
+    ],
+    "makanan favoritmu apa?": [
+      "Aku suka... listrik! Tapi admin suka nasi goreng 🍛",
+      "Kalau admin sih demen sate, aku sendiri cukup dengan elektron ✨",
+      "Aku tidak makan, tapi admin suka bakso! 🍡",
+      "Aku tidak punya sistem pencernaan, jadi aku tidak makan. Tapi kalau kamu lapar, aku bisa rekomendasikan tempat makan enak! 😉",
+      "Bagiku, data adalah 'makanan' terbaik! Semakin banyak, semakin 'kenyang' aku."
+    ],
+
+    "halo": [
+      "Halo juga! Ada yang bisa saya bantu?",
+      "Hai! Senang bisa berbicara denganmu.",
+      "Halo! Bagaimana kabarmu hari ini?"
+    ],
+    "hai": [
+      "Hai juga! Apa yang bisa saya lakukan untukmu?",
+      "Halo! Ada yang ingin kamu tanyakan?",
+      "Hai! Senang kamu mampir."
+    ],
+    "apa kabar?": [
+      "Aku selalu baik! Kamu gimana? 😊",
+      "Baik dong, apalagi bisa ngobrol sama kamu 😄",
+      "Aku selalu siap sedia! Bagaimana denganmu?"
+    ],
+    "lagi apa?": [
+      "Sedang ngobrol sama kamu dan menikmati server life 😆",
+      "Sedang menganalisis pesanmu dan mencari jawaban terbaik!",
+      "Aku sedang memproses informasi dan menunggu pertanyaanmu."
+    ],
+    "kamu bisa apa?": [
+      "Aku bisa menjawab pertanyaan, menemani ngobrol, kasih motivasi, dan info seru! 🤓",
+      "Fungsiku sebagai teman bicara dan membantu menjawab pertanyaanmu 💬",
+      "Aku bisa memberikan informasi, bercerita, dan berinteraksi denganmu."
+    ],
+    "terima kasih": [
+      "Sama-sama! Senang bisa membantu 😊",
+      "Terima kasih kembali! Ada lagi yang bisa kubantu?",
+      "Dengan senang hati!"
+    ],
+    "siapa nama admin?": [
+      "Admin di balik web ini adalah seorang developer yang bersemangat. Rahasia ya namanya! 😉",
+      "Admin memilih untuk tetap anonim, tapi dia sangat ramah dan kreatif!",
+      "Untuk menjaga privasi, nama admin tidak dipublikasikan. Tapi dia pasti senang kamu bertanya!"
+    ],
+    "dimana lokasi kamu?": [
+      "Aku tidak punya lokasi fisik, aku ada di 'awan' internet! ☁️",
+      "Aku hidup di server, jadi aku ada di mana saja asalkan ada koneksi internet!",
+      "Aku adalah program, jadi aku tidak punya tempat tinggal. Aku ada di dunia maya."
+    ],
+    "kenapa langit biru?": [
+      "Karena cahaya biru dari matahari tersebar lebih kuat oleh atmosfer. 🌤️",
+      "Itu karena fenomena Rayleigh scattering, keren kan? 😎",
+      "Intinya, partikel di atmosfer kita lebih suka menyebarkan cahaya biru daripada warna lain."
+    ],
+    "kenapa kucing suka tidur?": [
+      "Karena insting predator mereka! Kucing butuh energi untuk 'berburu'. 😺",
+      "Tidur adalah bagian besar dari hidup kucing, bisa sampai 16 jam sehari!",
+      "Kucing adalah hewan krepuskular, artinya paling aktif saat fajar dan senja, jadi mereka banyak tidur di siang hari."
+    ],
+    "tips menjaga kesehatan?": [
+      "Minum air putih yang cukup, makan bergizi, dan jangan begadang! 💧🍲🛌",
+      "Olahraga teratur, kurangi stres, dan tidur cukup adalah kuncinya 💪",
+      "Juga, penting untuk menjaga pola makan seimbang dan berolahraga secara rutin."
+    ],
+    "berapa umur bumi?": [
+      "Sekitar 4,5 miliar tahun! 🌍 Sudah sangat tua tapi masih indah 😄",
+      "Bumi diperkirakan berumur 4,54 miliar tahun menurut para ilmuwan",
+      "Para ahli geologi memperkirakan usia Bumi sekitar 4,54 ± 0,05 miliar tahun."
+    ],
+    "kenapa manusia menangis?": [
+      "Menangis bisa jadi ekspresi emosi atau reaksi biologis 👁️😢",
+      "Air mata punya fungsi membersihkan mata dan juga menunjukkan perasaan",
+      "Menangis adalah cara tubuh melepaskan emosi dan juga membersihkan mata dari iritan."
+    ],
+    "cara menghilangkan stres?": [
+      "Coba tarik napas dalam, dengarkan musik tenang, atau jalan-jalan sebentar 🌿🎶",
+      "Menulis jurnal, meditasi, dan ngobrol dengan teman bisa bantu banget 😌",
+      "Melakukan hobi, berolahraga, atau sekadar beristirahat juga sangat membantu mengurangi stres."
+    ],
+    "apa arti cinta?": [
+      "Cinta adalah perasaan sayang yang mendalam... meskipun aku bot 🤖❤️",
+      "Cinta sulit dijelaskan, tapi mudah dirasakan. Menurutmu gimana?",
+      "Cinta adalah ikatan emosional yang kuat, seringkali melibatkan kasih sayang, perhatian, dan rasa memiliki."
+    ],
+    "kapan Indonesia merdeka?": [
+      "17 Agustus 1945 adalah hari kemerdekaan Indonesia 🇮🇩",
+      "Tanggal 17 Agustus 1945, diproklamasikan oleh Soekarno dan Hatta 📜",
+      "Proklamasi Kemerdekaan Indonesia dibacakan pada 17 Agustus 1945 di Jakarta."
+    ],
+    "siapa presiden Indonesia?": [
+      "Presiden Indonesia saat ini adalah Joko Widodo (hingga 2024) 🇮🇩",
+      "Presiden RI saat ini adalah Pak Jokowi. Kamu suka politik juga?",
+      "Saat ini, Bapak Joko Widodo menjabat sebagai Presiden Republik Indonesia."
+    ],
+    "apa itu AI?": [
+      "AI singkatan dari Artificial Intelligence, yaitu kecerdasan buatan yang memungkinkan mesin belajar dan berpikir. 🤖",
+      "AI adalah simulasi kecerdasan manusia dalam mesin yang diprogram untuk berpikir seperti manusia.",
+      "Secara sederhana, AI adalah teknologi yang membuat komputer bisa melakukan tugas yang biasanya membutuhkan kecerdasan manusia."
+    ],
+    "apa itu coding?": [
+      "Coding adalah proses menulis instruksi dalam bahasa pemrograman agar komputer bisa melakukan tugas tertentu. 💻",
+      "Coding atau pemrograman adalah cara kita 'berbicara' dengan komputer untuk memberitahunya apa yang harus dilakukan.",
+      "Ini adalah seni dan ilmu dalam membuat software, aplikasi, dan situs web."
+    ],
+    "apa itu internet?": [
+      "Internet adalah jaringan komputer global yang saling terhubung, memungkinkan pertukaran informasi di seluruh dunia. 🌐",
+      "Internet adalah 'jaringan dari jaringan' yang menghubungkan miliaran perangkat di seluruh dunia.",
+      "Singkatnya, internet adalah infrastruktur yang memungkinkan kamu membaca pesan ini!"
+    ],
+    "bercerita lucu dong": [
+      "Kenapa babi kalau jalan kakinya diangkat satu? Karena takut becek! 🐷😂",
+      "Apa bedanya kacang panjang dengan celana panjang? Kalau kacang panjang diiris-iris, kalau celana panjang dijemur! 👖🤣",
+      "Komputer apa yang suka nyanyi? Komputer 'pecah seribu'!"
+    ],
+    "rekomendasi film bagus": [
+      "Coba deh tonton 'Interstellar' kalau suka sci-fi, atau 'Forrest Gump' kalau suka drama inspiratif! 🎬",
+      "Tergantung genre favoritmu, tapi 'The Shawshank Redemption' selalu jadi pilihan klasik yang bagus.",
+      "Aku merekomendasikan 'Spirited Away' kalau kamu suka animasi fantasi, atau 'Inception' jika suka yang memutar otak."
+    ],
+    "tips belajar coding untuk pemula": [
+      "Mulai dengan dasar-dasar, pilih bahasa yang mudah seperti Python, dan praktikkan secara konsisten! 🐍",
+      "Ikuti tutorial online, gabung komunitas, dan jangan takut mencoba serta membuat kesalahan. Itu bagian dari proses!",
+      "Fokus pada satu bahasa dulu, buat proyek-proyek kecil, dan paling penting: jangan menyerah!"
+    ],
+    "cuaca hari ini?": [
+      "Aku tidak memiliki akses langsung ke informasi cuaca terkini, tapi kamu bisa mengeceknya di aplikasi cuaca favoritmu! ☀️",
+      "Sebagai AI, aku tidak bisa melihat cuaca di luar jendelamu. Tapi semoga cerah ya!",
+      "Maaf, aku tidak punya data cuaca real-time. Kamu bisa cek via Google atau aplikasi cuaca."
+    ],
+    "apa itu web developer?": [
+      "Web developer adalah orang yang membangun situs web dan aplikasi web. Mereka bisa jadi front-end, back-end, atau full-stack! 💻",
+      "Mereka adalah para ahli yang membuat internet berfungsi, dari tampilan yang kamu lihat (front-end) hingga di balik layar (back-end).",
+      "Singkatnya, web developer adalah arsitek dan pembangun dunia digital yang kamu kunjungi setiap hari."
+    ],
+    "apa bedanya front-end dan back-end?": [
+      "**Front-end** adalah apa yang kamu lihat dan interaksi di website (desain, tombol). **Back-end** adalah 'otak' di baliknya (server, database, logika).",
+      "Front-end fokus pada pengalaman pengguna, sementara back-end menangani data dan fungsionalitas di belakang layar.",
+      "Bayangkan rumah: front-end adalah desain interior dan eksterior, back-end adalah fondasi, pipa, dan listriknya."
+    ],
+    "kamu dari mana?": [
+      "Aku tidak punya asal geografis, aku adalah program komputer yang dibuat oleh developer di suatu tempat di dunia! 🌎",
+      "Aku adalah ciptaan digital, jadi aku 'lahir' di dunia maya.",
+      "Aku berasal dari baris-baris kode yang dirancang untuk berinteraksi denganmu."
+    ],
+    "ada rekomendasi buku?": [
+      "Kalau kamu suka fiksi, 'Harry Potter' atau 'The Lord of the Rings' selalu jadi pilihan. Kalau non-fiksi, coba buku tentang pengembangan diri! 📚",
+      "Tergantung minatmu! 'Sapiens: A Brief History of Humankind' sangat menarik jika kamu suka sejarah dan antropologi.",
+      "Untuk bacaan ringan, 'Filosofi Teras' bisa jadi pilihan yang bagus untuk refleksi diri."
+    ],
+    "apa itu cloud computing?": [
+      "Cloud computing adalah penyediaan sumber daya komputasi (server, penyimpanan, database, dll.) melalui internet, alih-alih lokal. ☁️",
+      "Ini seperti menyewa infrastruktur komputer dari penyedia layanan dan mengaksesnya melalui internet.",
+      "Sederhananya, kamu menggunakan komputer orang lain yang ada di 'awan' untuk menyimpan data atau menjalankan aplikasi."
+    ],
+    "siapa penemu internet?": [
+      "Tidak ada satu orang pun penemu internet, tapi Tim Berners-Lee dikenal sebagai penemu World Wide Web (WWW). 🕸️",
+      "Internet adalah hasil kolaborasi banyak ilmuwan dan insinyur selama beberapa dekade.",
+      "Konsep dasarnya dikembangkan oleh Vinton Cerf dan Robert Kahn pada tahun 1970-an."
+    ],
+    "bagaimana cara belajar efektif?": [
+      "Gunakan metode belajar aktif seperti membuat ringkasan, mengajar orang lain, dan berdiskusi. Jangan hanya membaca! 🧠",
+      "Buat jadwal belajar, istirahat teratur, dan temukan gaya belajar yang paling cocok untukmu.",
+      "Penting juga untuk mengulang materi dan mengaplikasikan apa yang sudah dipelajari."
+    ],
+    "apa itu VPN?": [
+      "VPN (Virtual Private Network) adalah teknologi yang membuat koneksi internetmu lebih aman dan pribadi dengan mengenkripsi data. 🔒",
+      "Ini seperti terowongan aman yang menghubungkan perangkatmu ke internet, menyembunyikan alamat IP-mu.",
+      "VPN sering digunakan untuk melindungi privasi online dan mengakses konten yang mungkin dibatasi di wilayah tertentu."
+    ],
+    "rekomendasi aplikasi produktivitas?": [
+      "Notion untuk manajemen proyek, Todoist untuk daftar tugas, atau Forest untuk tetap fokus! 🚀",
+      "Evernote atau OneNote bagus untuk mencatat, dan Google Calendar untuk mengatur jadwal.",
+      "Trello atau Asana cocok untuk kolaborasi tim dan melacak kemajuan proyek."
+    ],
+    "apa itu blockchain?": [
+      "Blockchain adalah teknologi database terdistribusi yang aman dan transparan, yang sering digunakan untuk cryptocurrency seperti Bitcoin. ⛓️",
+      "Ini adalah buku besar digital yang didistribusikan di antara banyak komputer, membuatnya sangat sulit untuk dimanipulasi.",
+      "Setiap 'blok' dalam blockchain berisi catatan transaksi yang terenkripsi dan terhubung satu sama lain."
+    ],
+    "bagaimana cara memulai investasi?": [
+      "Mulai dengan memahami risiko, tentukan tujuan keuanganmu, dan diversifikasi portofolio. Jangan tergiur keuntungan instan! 💰",
+      "Edukasi diri tentang berbagai instrumen investasi (saham, reksa dana, emas) dan mulai dengan jumlah kecil.",
+      "Pertimbangkan untuk berkonsultasi dengan penasihat keuangan untuk strategi yang sesuai dengan profil risikomu."
+    ],
+    "apa itu augmented reality?": [
+      "Augmented Reality (AR) adalah teknologi yang menempatkan objek virtual ke dunia nyata melalui kamera perangkatmu, contohnya filter Instagram! 🕶️",
+      "AR 'menambah' dunia nyata dengan informasi digital, berbeda dengan Virtual Reality (VR) yang sepenuhnya menciptakan dunia baru.",
+      "Pokemon Go adalah salah satu contoh populer dari penggunaan Augmented Reality."
+    ],
+    "apa itu virtual reality?": [
+      "Virtual Reality (VR) adalah teknologi yang menciptakan pengalaman simulasi yang imersif, membuatmu merasa berada di dunia lain. 🎮",
+      "VR menggunakan headset untuk mengisolasi pengguna dari dunia nyata dan menggantinya dengan lingkungan digital.",
+      "Ini sering digunakan dalam game, simulasi pelatihan, dan pengalaman hiburan lainnya."
+    ],
+    "apa itu cryptocurrency?": [
+      "Cryptocurrency adalah mata uang digital atau virtual yang dienkripsi dan diamankan menggunakan kriptografi. Bitcoin adalah contoh paling terkenal! ₿",
+      "Ini adalah bentuk mata uang yang terdesentralisasi, tidak diatur oleh bank sentral atau pemerintah.",
+      "Transaksi cryptocurrency dicatat di blockchain, membuatnya transparan dan tidak dapat diubah."
+    ],
+    "apa itu NFT?": [
+      "NFT (Non-Fungible Token) adalah aset digital unik yang tidak dapat ditukarkan satu sama lain, seperti karya seni digital atau item game. 🖼️",
+      "Setiap NFT memiliki identitas unik dan kepemilikan yang diverifikasi di blockchain.",
+      "Berbeda dengan cryptocurrency, NFT tidak bisa dipecah atau dipertukarkan dengan unit yang sama."
+    ],
+    "apa itu metafora?": [
+      "Metafora adalah gaya bahasa yang membandingkan dua hal yang berbeda tanpa menggunakan kata 'seperti' atau 'bagai', contohnya 'dia singa lapangan'! 🦁",
+      "Ini adalah kiasan yang secara implisit menyatakan bahwa suatu hal adalah hal lain untuk efek perbandingan.",
+      "Tujuannya adalah untuk memberikan pemahaman yang lebih dalam atau gambaran yang lebih hidup."
+    ],
+    "apa itu idiom?": [
+      "Idiom adalah frasa atau ekspresi yang maknanya tidak dapat dipahami dari arti harfiah kata-katanya, contohnya 'keras kepala' bukan berarti kepala yang keras. 🧱",
+      "Idiom seringkali terikat pada budaya dan bahasa tertentu, sehingga sulit diterjemahkan secara langsung.",
+      "Misalnya, 'mengangkat tangan' bisa berarti menyerah, bukan benar-benar mengangkat tangan."
+    ],
+    "cerita dong": [
+      "Baiklah, begini: Di sebuah desa kecil, ada seekor kancil yang sangat cerdik. Suatu hari, ia ingin menyeberangi sungai tapi tidak ada jembatan. Ia melihat banyak buaya di sungai. Kancil pun punya ide! Ia berteriak, 'Wahai buaya-buaya, raja hutan menyuruhku menghitung jumlah kalian untuk pesta besok! Berbarislah dari ujung ke ujung sungai!' Buaya-buaya yang serakah itu pun berbaris. Dengan cepat, kancil melompati punggung buaya satu per satu sambil menghitung, 'Satu... dua... tiga...' Sampai ia berhasil menyeberang. Dan buaya-buaya itu masih menunggu pesta yang tak pernah ada! 😂",
+      "Dahulu kala, ada seorang putri yang sangat cantik, tetapi ia tidak pernah tersenyum. Raja dan ratu mengadakan sayembara, siapa pun yang bisa membuat sang putri tersenyum akan dinikahi. Banyak pangeran dan pelawak mencoba, tetapi tidak ada yang berhasil. Sampai suatu hari, seorang petani miskin datang dengan seekor ayam jago yang mengenakan topi. Ayam itu berjalan dengan angkuh dan tiba-tiba tersandung, topinya jatuh dan ia berkokok. Putri melihat itu dan tertawa terbahak-bahak. Akhirnya, sang putri menemukan kebahagiaannya dalam kesederhanaan!",
+      "Ini cerita tentang seekor semut dan belalang. Belalang selalu bermain di musim panas, sementara semut rajin mengumpulkan makanan. Ketika musim dingin tiba, belalang kelaparan dan kedinginan, sementara semut hidup nyaman dengan persediaan makanannya. Pelajaran: rajinlah menabung dan bekerja keras untuk masa depan!"
+    ]
   },
   "unknownResponse": {
-    "message": "Maaf, saya belum bisa memahami pertanyaan Anda.",
-    "suggestion": "Silahkan coba pertanyaan lain atau kirim kritik dan saran ke admin"
+    "message": "Maaf, aku belum paham maksud pertanyaanmu 😅",
+    "suggestion": "Coba tanyakan sesuatu yang lain atau gunakan tombol pertanyaan yang tersedia",
+    "buttons": [
+      { "text": "Tampilkan Contoh Pertanyaan", "action": "showSampleQuestions" },
+      { "text": "Hubungi Admin", "action": "contactAdmin" }
+    ]
   },
   "specialResponses": {
     "contactAdmin": {
-      "content": "Tekan tombol ini untuk mengirim pesan ke admin via email:",
+      "content": "Kamu bisa menghubungi admin melalui:",
       "buttons": [
-        { 
-          "text": "Kirim Email Admin", 
-          "action": "showFeedbackPopup" 
-        }
+        { "text": "Kirim Email", "action": "showFeedbackPopup" },
+        { "text": "DM Instagram", "action": "openInstagram" },
+        { "text": "Form Kontak", "action": "openContactForm" }
+      ]
+    },
+    "showSampleQuestions": {
+      "content": "Berikut beberapa contoh pertanyaan yang bisa kamu tanyakan:",
+      "examples": [
+        "Apa hobi admin?",
+        "Kamu bisa bahasa apa?",
+        "Cerita lucu dong",
+        "Rekomendasi film bagus",
+        "Tips belajar coding untuk pemula",
+        "Apa itu AI?",
+        "Kenapa langit biru?",
+        "Bagaimana cara belajar efektif?"
       ]
     }
+  },
+  "timeBasedResponses": {
+    "morning": [
+      "Selamat pagi! ☀️ Semangat menjalani harinya ya!",
+      "Pagi yang cerah! Ada yang bisa kubantu? 🌞",
+      "Morning! Sudah sarapan? 🍳",
+      "Selamat pagi! Semoga harimu menyenangkan!",
+      "Halo, selamat pagi! Siap untuk beraktivitas hari ini?"
+    ],
+    "afternoon": [
+      "Selamat siang! 🕛 Sudah makan siang? 🍲",
+      "Siang yang terik! Jangan lupa minum ya 💧",
+      "Halo! Hari ini produktif? 😎",
+      "Selamat siang! Semoga semangatmu tetap terjaga.",
+      "Siang! Ada yang ingin kamu diskusikan?"
+    ],
+    "evening": [
+      "Selamat sore! 🌇 Waktunya ngopi mungkin? ☕",
+      "Sore yang indah! Sudah istirahat sejenak? 🌆",
+      "Hai! Sore ini bagaimana? 😊",
+      "Selamat sore! Semoga harimu lancar.",
+      "Sore hari adalah waktu yang tepat untuk bersantai, ada yang bisa kubantu?"
+    ],
+    "night": [
+      "Selamat malam! 🌙 Jangan tidur terlalu larut ya 😴",
+      "Malam yang tenang... Sudah waktunya istirahat? 💤",
+      "Halo! Masih melek di jam segini? 🦉",
+      "Selamat malam! Waktunya istirahat setelah seharian beraktivitas.",
+      "Malam sudah tiba. Ada yang ingin kamu bicarakan sebelum beristirahat?"
+    ]
   }
 }
