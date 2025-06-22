@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Profesional | Amin Fa</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css"> <!-- File CSS eksternal -->
+</head>
+<body>
+  <div class="overlay" id="menu">
+    <div class="main-container fade-in">
+      <div class="burger-btn" id="burgerBtn" onclick="bukaSlide('info')">
+        <span class="burger-icon"></span>
+      </div>
+
+      <div class="profile-section">
+        <img src="https://i.imgur.com/GUbKAWH.jpg" alt="Foto Profil" class="profile-picture" id="profileImage">
+        <h1 class="profile-name">Amin Fa</h1>
+        <p class="profile-title">Mahasiswa KPI - UIN Salatiga</p>
+        
+        <div class="button-container">
+          <button class="btn" onclick="window.open('https://www.instagram.com/aminnu.s?igsh=dWV0bndhYmt6aDI1')">
+            <i class="fab fa-instagram"></i> Instagram
+          </button>
+          
+          <button class="btn" onclick="window.open('https://www.facebook.com/share/1XPb1Uti5i/')">
+            <i class="fab fa-facebook"></i> Facebook
+          </button>
+          
+          <button class="btn" onclick="window.open('https://notegwe.blogspot.com/2025/06/40.html')">
+            <i class="fab fa-blogger"></i> My Note
+          </button>
+
+          <button class="btn" onclick="openGalleryCodePopup()">
+            <i class="fas fa-images"></i> My Gallery
+          </button>
+        </div>
+        
+        <div id="quotesSection" class="fade-in">
+          "Jalan terjauh dimulai dari satu langkah kecil yang dijalani dengan tekad besar, karena pada akhirnya, kita tidak dibentuk oleh tujuan yang dicapai, melainkan oleh perjalanan yang kita tempuh untuk mencapainya."
+        </div>
+        
+        <div class="info-frame digital-time" id="digitalClockMenu">
+          <i class="fas fa-clock"></i> <span id="clockText">Loading waktu...</span>
+        </div>
+        
+        <div class="info-frame user-info">
+          <i class="fas fa-user"></i> <span>Welcome to my social media websites  </span>
+        </div>
+
+        <div class="icon-button-container">
+          <div class="icon-btn" onclick="window.open('https://www.facebook.com/share/1XPb1Uti5i/')">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          
+          <div class="icon-btn" onclick="window.open('https://www.instagram.com/aminnu.s?igsh=dWV0bndhYmt6aDI1')">
+            <i class="fab fa-instagram"></i>
+          </div>
+          
+          <div class="icon-btn" onclick="window.open('https://lynk.id/amin02')">
+            <i class="fas fa-globe"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="slide" id="info">
+    <div class="slide-header">
+      <h2 class="slide-title">Tentang Saya</h2>
+      <button class="slide-close" onclick="tutupSlide('info')">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="info-content">
+      <div class="tutorial-section">
+        <h3 class="section-title">Tentang Saya</h3>
+        <p class="info-text">
+          Saya adalah seorang mahasiswa jurusan Komunikasi dan Penyiaran Islam (KPI) yang sedang menempuh pendidikan di 
+          institusi UIN Salatiga. Saat ini, saya sedang menjelajahi berbagai hal baru, termasuk membuat website ini 
+          sebagai sarana untuk mengembangkan kemampuan di bidang digital.
+        </p>
+      </div>
+      
+      <div class="tutorial-section">
+        <h3 class="section-title">Hobi Saya</h3>
+        <ul class="info-list">
+          <li><strong>Membaca Novel/Cerpen:</strong> Membaca adalah jembatan ilmu yang membuka wawasan dan pemahaman baru.</li>
+          <li><strong>Menggambar:</strong> Menciptakan karya seni melalui menggambar membantu mengurangi stres akibat tugas kuliah.</li>
+          <li><strong>Meng-hack Game Offline:</strong> Meningkatkan kemampuan teknis untuk menjadi seorang security 
+          expert.</li>
+          <li><strong>Membuat Website Sederhana:</strong> Merupakan hobi baru saya setelah masuk ke dunia digital di perkuliahan.</li>
+        </ul>
+      </div>
+      
+      <div class="tutorial-section">
+        <h3 class="section-title">Tempat Tinggal</h3>
+        <ul class="info-list">
+          <li>Indonesia</li>
+          <li>Provinsi 
+          Jawa Tengah</li>
+          <li>Rumah orang tua di kampung</li>
+          <li>Pondok saat ini di Salatiga</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="copyright-info">
+      <p>© Amieenn_Fa 2025 - All Rights Reserved</p>
+    </div>
+  </div>
+
+  <div class="slide" id="gallerySlide">
+    <div class="slide-header">
+      <h2 class="slide-title">Galeri Saya</h2>
+      <button class="slide-close" onclick="tutupSlide('gallerySlide')">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="slide-gallery-container">
+      <div class="chroma-grid" id="galleryContent">
+        </div>
+    </div>
+    <div class="copyright-info">
+      <p>© Amieenn_Fa 2025 - All Rights Reserved</p>
+    </div>
+  </div>
+
+  <div id="toast-container"></div>
+
+  <div class="floating-btn" id="floatingBtn">
+    <img src="https://em-content.zobj.net/thumbs/120/apple/354/robot_1f916.png" alt="Robot">
+  </div>
+
+  <div class="chat-container" id="chatContainer">
+    <div class="chat-header">
+      <img src="https://em-content.zobj.net/thumbs/120/apple/354/robot_1f916.png" alt="Robot Profile Picture">
+      <div class="username-info">
+        <div class="username">Kira ( Asistan Pribadi )</div>
+        <div class="status">
+          <span class="status-dot"></span> Online
+        </div>
+      </div>
+      <div class="close-btn" onclick="closeChat()">
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
+    
+    <div class="chat-box" id="chatBox">
+      </div>
+    
+    <div class="options" id="chatOptions">
+      <!-- Tombol akan di-render secara dinamis dari JSON -->
+    </div>
+    
+    <div class="manual-input" id="manualInputContainer">
+      <input type="text" id="userInput" placeholder="Ketik pesan...">
+      <button id="sendManualBtn">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+
+  <div class="feedback-overlay" id="feedbackOverlay">
+    <div class="feedback-popup">
+      <h3>Kirim Kritik & Saran via Email</h3>
+      <textarea id="feedbackText" placeholder="Tulis kritik atau saran Anda di sini..."></textarea>
+      <div class="buttons">
+        <button class="send-btn" onclick="sendFeedback()">Kirim Email</button>
+        <button class="cancel-btn" onclick="hideFeedbackPopup()">Batal</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-code-overlay" id="galleryCodeOverlay">
+    <div class="gallery-code-popup">
+      <h3>Masukkan Kode Akses Galeri</h3>
+      <input type="text" id="galleryCodeInput" placeholder="Masukkan kode akses Anda">
+      <div class="buttons">
+        <button class="send-btn" onclick="verifyGalleryCode()">Kirim</button>
+        <button class="cancel-btn" onclick="closeGalleryCodePopup()">Batal</button>
+        <button class="get-access-btn" onclick="requestGalleryAccess()">Dapatkan Akses!</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="catSticker" title="Klik aku!">🐱</div>
+
+  <div id="emojiRainContainer"></div>
+
+  <audio id="catSound" src="https://files.catbox.moe/ug8hf1.mp3" preload="auto"></audio>
+  <audio id="notificationSound" src="https://files.catbox.moe/jk4iyg.mp3" preload="auto"></audio>
+
+  <script>
+    // Konfigurasi link website Anda di sini
+    const WEBSITE_LINK_ANDA = 'https://lynk.id/amin02'; 
+
+    // Variabel global
+    let currentToastTimeout = null;
+    let isCatRainActive = false;
+    const catRainCooldown = 5000;
+    const GALLERY_ACCESS_CODE = "AMIN_GUNTUR"; // Kode akses galeri
+    const ADMIN_EMAIL = "uchihafans2@gmail.com"; // Ganti dengan alamat email Anda
+    let chatbotData = {}; // Objek untuk menyimpan data chatbot
+
+    // Fungsi untuk memuat data chatbot dari file JSON
+    async function loadChatbotData() {
+      try {
+        const response = await fetch('respon.json');
+        const data = await response.json();
+        chatbotData = data;
+        
+        // Jika gagal memuat, gunakan data default
+        if (!chatbotData || !chatbotData.buttons || !chatbotData.responses) {
+          chatbotData = {
+            buttons: [
+              { text: "Siapa kamu?", action: "Siapa kamu?" },
+              { text: "Apa isi web ini?", action: "Apa isi web ini?" },
+              { text: "Punya blog?", action: "Punya blog?" },
+              { text: "Bagaimana hubungi kamu?", action: "Bagaimana hubungi kamu?" },
+              { text: "Kamu suka ngoding?", action: "Kamu suka ngoding?" },
+              { text: "Warna favoritmu apa?", action: "Warna favoritmu apa?" },
+              { text: "Ketik Manual", action: "showManualInput" }
+            ],
+            responses: {
+              "siapa kamu?": "Aku adalah versi digital dari Admin, biar kamu makin kenal!",
+              "apa isi web ini?": "Ini semacam tempat ngumpulin jejak digital dan karya-karyaku.",
+              "punya blog?": "Ada dong! Coba cek menu atas atau klik bagian blogger 💡",
+              "bagaimana hubungi kamu?": "Bisa lewat DM IG atau isi form kritik dan saran ya 📧",
+              "kamu suka ngoding?": "Banget. Apalagi ngoding sambil denger musik malam-malam 🎧",
+              "hai": "Halo juga👋😁, kamu apa kabar?",
+              "kamu bisa apa?": "aku bisa ngobrol sama kamu kok😁",
+              "i love you": "😘😘❤️",
+              "warna favoritmu apa?": "Ungu! Elegan, tenang, dan agak misterius, kayak aku 😉"
+            }
+          };
+        }
+        
+        // Render tombol chatbot dari data JSON
+        renderChatbotButtons();
+      } catch (error) {
+        console.error("Gagal memuat data chatbot:", error);
+        // Gunakan data default jika terjadi error
+        chatbotData = {
+          buttons: [
+            { text: "Siapa kamu?", action: "Siapa kamu?" },
+            { text: "Apa isi web ini?", action: "Apa isi web ini?" },
+            { text: "Punya blog?", action: "Punya blog?" },
+            { text: "Bagaimana hubungi kamu?", action: "Bagaimana hubungi kamu?" },
+            { text: "Kamu suka ngoding?", action: "Kamu suka ngoding?" },
+            { text: "Warna favoritmu apa?", action: "Warna favoritmu apa?" },
+            { text: "Ketik Manual", action: "showManualInput" }
+          ],
+          responses: {
+            "siapa kamu?": "Aku adalah versi digital dari Admin, biar kamu makin kenal!",
+            "apa isi web ini?": "Ini semacam tempat ngumpulin jejak digital dan karya-karyaku.",
+            "punya blog?": "Ada dong! Coba cek menu atas atau klik bagian blogger 💡",
+            "bagaimana hubungi kamu?": "Bisa lewat DM IG atau isi form kritik dan saran ya 📧",
+            "kamu suka ngoding?": "Banget. Apalagi ngoding sambil denger musik malam-malam 🎧",
+            "hai": "Halo juga👋😁, kamu apa kabar?",
+            "kamu bisa apa?": "aku bisa ngobrol sama kamu kok😁",
+            "i love you": "😘😘❤️",
+            "warna favoritmu apa?": "Ungu! Elegan, tenang, dan agak misterius, kayak aku 😉"
+          }
+        };
+        renderChatbotButtons();
+      }
+    }
+
+    // Fungsi untuk merender tombol chatbot dari data JSON
+    function renderChatbotButtons() {
+      const chatOptions = document.getElementById("chatOptions");
+      chatOptions.innerHTML = ""; // Kosongkan kontainer tombol
+      
+      chatbotData.buttons.forEach(button => {
+        const btn = document.createElement("button");
+        btn.textContent = button.text;
+        
+        if (button.action.startsWith("http")) {
+          // Jika action adalah URL, buka tautan
+          btn.onclick = () => window.open(button.action, '_blank');
+        } else if (button.action === "showManualInput") {
+          // Jika action adalah showManualInput
+          btn.onclick = showManualInput;
+        } else {
+          // Jika action adalah pesan teks biasa
+          btn.onclick = () => sendMessage(button.action);
+        }
+        
+        chatOptions.appendChild(btn);
+      });
+    }
+
+    // Fungsi untuk memperbarui jam digital
+    function updateDigitalClock() {
+      const now = new Date();
+      const dateOptions = { 
+        weekday: 'long', 
+        day: 'numeric', 
+        month: 'long', 
+        year: 'numeric' 
+      };
+      const timeOptions = { 
+        hour: '2-digit', 
+        minute: '2-digit', 
+        hourCycle: 'h23' 
+      };
+      const dateString = now.toLocaleDateString('id-ID', dateOptions);
+      const timeString = now.toLocaleTimeString('id-ID', timeOptions);
+
+      const fullDateTimeString = `${dateString} | ${timeString}`;
+      if (document.getElementById('clockText')) {
+        document.getElementById('clockText').textContent = fullDateTimeString;
+      }
+    }
+
+    // Fungsi untuk memutar suara notifikasi
+    function playNotificationSound() {
+      const sound = document.getElementById('notificationSound');
+      if (sound) {
+        sound.currentTime = 0; // Reset suara jika sudah diputar
+        sound.play().catch(e => console.error("Error playing notification sound:", e));
+      }
+    }
+
+    // Fungsi untuk menampilkan toast notifikasi
+    function showToast(title, message, duration = 4000) {
+      playNotificationSound(); // Play sound every time toast is shown
+
+      const container = document.getElementById('toast-container');
+      const toast = document.createElement('div');
+      toast.className = 'toast-wrapper entering';
+      toast.innerHTML = `
+        <div class="toast-icon">
+          <i class="fas fa-bell" style="font-size: 1.5rem; color: var(--primary);"></i>
+        </div>
+        <div class="toast-content">
+          <strong>${title}</strong>
+          <span>${message}</span>
+        </div>
+      `;
+      // Clear previous toasts to avoid stacking
+      while (container.firstChild) {
+        container.firstChild.remove();
+      }
+      if (currentToastTimeout) {
+        clearTimeout(currentToastTimeout);
+        currentToastTimeout = null;
+      }
+
+      container.appendChild(toast);
+      
+      currentToastTimeout = setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.transform = 'translateY(20px) scale(0.9)';
+        setTimeout(() => {
+          toast.remove();
+          currentToastTimeout = null;
+        }, 300);
+      }, duration);
+    }
+
+    // Fungsi untuk membuka slide
+    function bukaSlide(slideId) {
+      document.querySelectorAll('.slide').forEach(slide => {
+        slide.classList.remove('active');
+        slide.style.display = 'none';
+      });
+      const targetSlide = document.getElementById(slideId);
+      targetSlide.style.display = 'flex';
+      setTimeout(() => {
+        targetSlide.classList.add('active');
+      }, 10);
+      // Sembunyikan tombol burger saat slide terbuka
+      document.getElementById('burgerBtn').style.display = 'none';
+      // Sembunyikan robot dan kucing saat slide terbuka
+      hideFloatingButtons();
+    }
+
+    // Fungsi untuk menutup slide
+    function tutupSlide(slideId) {
+      forceTutupSlide();
+    }
+
+    // Fungsi untuk memaksa menutup slide
+    function forceTutupSlide() {
+      const activeSlide = document.querySelector('.slide.active');
+      if (activeSlide) {
+        activeSlide.classList.remove('active');
+        setTimeout(() => {
+          activeSlide.style.display = 'none';
+          // Tampilkan kembali tombol burger saat slide tertutup
+          document.getElementById('burgerBtn').style.display = 'flex'; 
+          // Tampilkan kembali robot dan kucing saat slide tertutup
+          showFloatingButtons();
+        }, 300);
+      } else {
+        // Pastikan tombol burger selalu terlihat jika tidak ada slide aktif
+        document.getElementById('burgerBtn').style.display = 'flex';
+        showFloatingButtons(); // Ensure they are shown if no slide is active
+      }
+    }
+
+    // Fungsi untuk menyembunyikan robot dan kucing
+    function hideFloatingButtons() {
+        document.getElementById('floatingBtn').style.display = 'none';
+        document.getElementById('catSticker').style.display = 'none';
+    }
+
+    // Fungsi untuk menampilkan robot dan kucing
+    function showFloatingButtons() {
+        // Tampilkan hanya jika chatbot tidak aktif
+        if (!document.getElementById('chatContainer').classList.contains('active')) {
+            document.getElementById('floatingBtn').style.display = 'flex'; // Robot selalu flex
+        }
+        document.getElementById('catSticker').style.display = 'block'; // Kucing selalu block
+    }
+
+    // Fungsi untuk memulai hujan stiker kucing
+    function startCatRain() {
+      if (isCatRainActive) {
+        return;
+      }
+
+      isCatRainActive = true;
+      const emojiContainer = document.getElementById('emojiRainContainer');
+      const emojis = ['🐱', '🐈', '🐾', '🎉', '✨', '🌟', '🎈', '👻', '😹', '😻', '😼', '😽', '🙀', '🎊'];
+      const fallDuration = 2500;
+      const numberOfEmojis = 70;
+
+      emojiContainer.innerHTML = '';
+      for (let i = 1; i <= numberOfEmojis; i++) {
+        const emoji = emojis[Math.floor(Math.random() * emojis.length)];
+        const item = document.createElement('div');
+        item.classList.add('emoji-item');
+        item.textContent = emoji;
+        item.style.left = `${Math.random() * 100}vw`;
+        item.style.animationDuration = `${fallDuration}ms`;
+        item.style.animationDelay = `${Math.random() * 800}ms`;
+        item.style.setProperty('--fall-x-offset', `${(Math.random() - 0.5) * 200}px`);
+
+        emojiContainer.appendChild(item);
+      }
+
+      setTimeout(() => {
+        emojiContainer.innerHTML = '';
+        setTimeout(() => {
+          isCatRainActive = false;
+        }, catRainCooldown); 
+      }, fallDuration + 500);
+    }
+    
+    // Chatbot specific JavaScript
+    // DOM Elements
+    const floatingBtn = document.getElementById("floatingBtn");
+    const chatContainer = document.getElementById("chatContainer");
+    const chatBox = document.getElementById("chatBox");
+    const userInput = document.getElementById("userInput");
+    const manualInputContainer = document.getElementById("manualInputContainer");
+    const sendManualBtn = document.getElementById("sendManualBtn"); 
+    const feedbackOverlay = document.getElementById("feedbackOverlay");
+    const feedbackTextarea = document.getElementById("feedbackText");
+    
+    // Get current time
+    function getTime() {
+      const now = new Date();
+      const jam = now.getHours().toString().padStart(2, '0');
+      const menit = now.getMinutes().toString().padStart(2, '0');
+      return `${jam}:${menit}`;
+    }
+    
+    // Add message to chat
+    function addMessage(text, type, isTyping = false) {
+      const messageWrapper = document.createElement("div");
+      messageWrapper.className = `message-wrapper ${type}-message`;
+      
+      // Add profile picture for bot messages
+      if (type === "bot" && !isTyping) {
+        const profilePic = document.createElement("img");
+        profilePic.src = "https://em-content.zobj.net/thumbs/120/apple/354/robot_1f916.png";
+        profilePic.alt = "Bot Profile Picture";
+        profilePic.className = "profile-pic";
+        messageWrapper.appendChild(profilePic);
+      }
+      
+      const msg = document.createElement("div");
+      msg.className = `message ${type}`;
+      if (isTyping) {
+        msg.innerHTML = `
+          <div class="typing-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        `;
+      } else {
+        if (typeof text === 'object' && text.isSpecialButton) {
+          msg.innerHTML = text.content;
+        } else {
+          msg.innerText = text;
+        }
+        
+        const time = document.createElement("div");
+        time.className = "timestamp";
+        // Timestamp color based on message type
+        time.style.color = type === "user" ? "rgba(255, 255, 255, 0.7)" : "#888";
+        time.innerText = getTime();
+        msg.appendChild(time);
+      }
+      
+      messageWrapper.appendChild(msg);
+      chatBox.appendChild(messageWrapper); 
+      chatBox.scrollTop = chatBox.scrollHeight;
+      return messageWrapper;
+    }
+    
+    // Send message (from buttons)
+    function sendMessage(text) {
+      addMessage(text, "user");
+      // Show typing indicator
+      const typingMsgWrapper = addMessage("", "bot", true);
+      chatBox.appendChild(typingMsgWrapper); 
+
+      setTimeout(() => {
+        let reply;
+        const lowerCaseText = text.toLowerCase();
+        
+        if (lowerCaseText.includes("kontak admin") || lowerCaseText.includes("bagaimana hubungi kamu?") || lowerCaseText.includes("kritik") || lowerCaseText.includes("saran")) { // Changed condition for special button
+          reply = {
+            isSpecialButton: true,
+            content: `
+              Tekan tombol ini untuk mengirim pesan ke admin via email:
+              <div class="feedback-button" onclick="showFeedbackPopup()">
+                <span class="icon">📧</span> Kirim Email Admin
+              </div>
+            `
+          };
+        } else {
+          // Cari respons yang cocok dari chatbotResponses
+          for (const key in chatbotData.responses) {
+            if (lowerCaseText.includes(key.toLowerCase())) {
+              reply = chatbotData.responses[key];
+              break;
+            }
+          }
+          
+          // Jika tidak ditemukan respons yang cocok
+          if (!reply) {
+            reply = getUnknownResponse();
+          }
+        }
+        
+        // Remove typing indicator
+        chatBox.removeChild(typingMsgWrapper);
+        
+        // Add bot's actual message
+        addMessage(reply, "bot");
+      }, 1500);
+    }
+    
+    // Send manual message (from input)
+    function sendManualMessage() {
+      const text = userInput.value.trim();
+      if (text === "") return;
+      
+      // Add user message
+      addMessage(text, "user");
+      // Clear input
+      userInput.value = "";
+      // Show typing indicator
+      const typingMsgWrapper = addMessage("", "bot", true);
+      chatBox.appendChild(typingMsgWrapper); 
+
+      setTimeout(() => {
+        let reply;
+        const lowerCaseText = text.toLowerCase();
+        
+        // Cari respons yang cocok dari chatbotResponses
+        for (const key in chatbotData.responses) {
+          if (lowerCaseText.includes(key.toLowerCase())) {
+            reply = chatbotData.responses[key];
+            break;
+          }
+        }
+        
+        // Jika tidak ditemukan respons yang cocok
+        if (!reply) {
+          // Check for keywords that should trigger the "contact admin" button
+          if (lowerCaseText.includes("kontak") || lowerCaseText.includes("email") || lowerCaseText.includes("hubungi") || lowerCaseText.includes("kritik") || lowerCaseText.includes("saran") || lowerCaseText.includes("admin")) {
+            reply = {
+              isSpecialButton: true,
+              content: `
+                Tekan tombol ini untuk mengirim pesan ke admin via email:
+                <div class="feedback-button" onclick="showFeedbackPopup()">
+                  <span class="icon">📧</span> Kirim Email Admin
+                </div>
+              `
+            };
+          } else {
+            reply = getUnknownResponse();
+          }
+        }
+        
+        // Remove typing indicator
+        chatBox.removeChild(typingMsgWrapper);
+        
+        // Add bot's actual message
+        addMessage(reply, "bot");
+      }, 1500);
+    }
+    
+    // Response for unknown messages
+    function getUnknownResponse() {
+      return {
+        isSpecialButton: true,
+        content: `
+          Maaf, saya belum bisa memahami pertanyaan Anda.<br><br>
+          Silahkan coba pertanyaan lain atau kirim kritik dan saran ke admin dengan menekan tombol di bawah:
+          <div class="feedback-button" onclick="showFeedbackPopup()">
+            <span class="icon">📧</span> Kirim Email Admin
+          </div>
+        `
+      };
+    }
+    
+    // Feedback functions (modified for email)
+    function showFeedbackPopup() {
+      feedbackOverlay.classList.add("active");
+      feedbackTextarea.value = "";
+      feedbackTextarea.focus();
+    }
+    
+    function hideFeedbackPopup() {
+      feedbackOverlay.classList.remove("active");
+    }
+    
+    function sendFeedback() {
+      const feedbackMessage = feedbackTextarea.value.trim();
+      if (feedbackMessage === "") {
+        showToast('Peringatan!', 'Harap tulis pesan kritik atau saran Anda.', 3000); 
+        return;
+      }
+      
+      const subject = encodeURIComponent("Kritik & Saran dari Chatbot Website Anda");
+      const body = encodeURIComponent(feedbackMessage);
+      const mailtoLink = `mailto:${ADMIN_EMAIL}?subject=${subject}&body=${body}`;
+      
+      window.open(mailtoLink, '_blank');
+      hideFeedbackPopup();
+      showToast('Pesan Terkirim!', 'Pesan kritik/saran Anda telah dikirimkan ke admin melalui email!');
+    }
+
+    // Gallery specific functions
+    function openGalleryCodePopup() {
+        document.getElementById('galleryCodeOverlay').classList.add('active');
+        document.getElementById('galleryCodeInput').value = ''; // Clear previous input
+        document.getElementById('galleryCodeInput').focus();
+        hideFloatingButtons(); // Sembunyikan floating buttons saat pop-up galeri muncul
+    }
+
+    function closeGalleryCodePopup() {
+        document.getElementById('galleryCodeOverlay').classList.remove('active');
+        showFloatingButtons(); // Tampilkan kembali floating buttons saat pop-up galeri ditutup
+    }
+
+    function verifyGalleryCode() {
+        const codeInput = document.getElementById('galleryCodeInput').value.trim();
+        if (codeInput === GALLERY_ACCESS_CODE) {
+            closeGalleryCodePopup();
+            bukaSlide('gallerySlide');
+            showToast('Akses Diterima!', 'Selamat datang di galeri.');
+            loadGalleryImages(); // Pastikan galeri dimuat setelah kode diverifikasi
+        } else {
+            showToast('Kode Salah!', 'Maaf, kode salah, silahkan minta akses terlebih dahulu!', 4000);
+        }
+    }
+
+    function requestGalleryAccess() {
+        showToast('Minta Akses Galeri', 'Silahkan chat pribadi di DM Instagram atau Facebook untuk meminta izin.', 5000);
+    }
+
+    // Function to load gallery images into chroma grid
+    function loadGalleryImages() {
+    const quotes = [
+  "Malam yang dingin dan terang",
+  "Senja yang tak terlupa",
+  "Langkah awal petualangan",
+  "Kenangan di bawah lampu kota",
+  "Senyuman tanpa kata",
+  "Warna-warni harapan",
+  "Jalanan yang penuh cerita",
+  "Diam yang bermakna",
+  "Tatapan yang berbicara",
+  "Mimpi dalam gambar"
+];
+    const galleryContent = document.getElementById('galleryContent');
+    galleryContent.innerHTML = ''; // Clear existing content
+    const imageCount = 10;
+
+    const imageLinks = [
+        "https://files.catbox.moe/7laj9d.jpg",
+        "https://files.catbox.moe/abc2.jpg",
+        "https://files.catbox.moe/abc3.jpg",
+        "https://files.catbox.moe/abc4.jpg",
+        "https://files.catbox.moe/abc5.jpg",
+        "https://files.catbox.moe/abc6.jpg",
+        "https://files.catbox.moe/abc7.jpg",
+        "https://files.catbox.moe/abc8.jpg",
+        "https://files.catbox.moe/abc9.jpg",
+        "https://files.catbox.moe/abc10.jpg"
+    ];
+
+    for (let i = 0; i < imageCount; i++) {
+        const card = document.createElement('div');
+        card.classList.add('chroma-card');
+
+        const imgWrapper = document.createElement('div');
+        imgWrapper.classList.add('chroma-img-wrapper');
+
+        const img = document.createElement('img');
+        img.src = imageLinks[i];
+        img.alt = `Galeri ${i + 1}`;
+
+        img.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            showToast('Akses Ditolak!', 'Gambar galeri tidak dapat disimpan.');
+        });
+
+        imgWrapper.appendChild(img);
+        card.appendChild(imgWrapper);
+
+        const info = document.createElement('div');
+info.classList.add('chroma-info');
+info.innerHTML = `
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <span>Galeri ${i + 1}</span>
+    <span class="role">🔥</span>
+  </div>
+  <div class="quote" style="margin-top: 5px; font-size: 13px; color: #ccc;">
+    "${quotes[i]}"
+  </div>
+`;
+card.appendChild(info);
+
+        galleryContent.appendChild(card);
+    }
+
+    applyChromaEffect();
+}
+
+    // Apply spotlight effect
+    function applyChromaEffect() {
+        document.querySelectorAll('.chroma-card').forEach(card => {
+            const mouseMoveHandler = function(e) {
+                const rect = card.getBoundingClientRect();
+                const x = ((e.clientX - rect.left) / rect.width) * 100;
+                const y = ((e.clientY - rect.top) / rect.height) * 100;
+                card.style.setProperty('--mouse-x', `${x}%`);
+                card.style.setProperty('--mouse-y', `${y}%`);
+            };
+            card.addEventListener('mousemove', mouseMoveHandler);
+        });
+    }
+
+    // Open chat when robot button is clicked
+    floatingBtn.addEventListener("click", function() {
+      chatContainer.classList.add("active");
+      hideFloatingButtons(); // Sembunyikan robot (dan kucing) saat chat terbuka
+      initChat(); // Initialize chat when opened
+      // NEW: Show toast notification for chatbot language
+      showToast('Info Chatbot', 'Saat ini chatbot hanya memahami bahasa Indonesia.', 4000);
+    });
+    
+    // Close chat
+    function closeChat() {
+      chatContainer.classList.remove("active");
+      setTimeout(() => {
+        // Tampilkan kembali robot dan kucing HANYA JIKA TIDAK ADA SLIDE AKTIF
+        const anySlideActive = document.querySelector('.slide.active');
+        if (!anySlideActive) {
+            showFloatingButtons();
+        }
+      }, 500); // Wait for transition to complete before showing button
+    }
+    
+    // Initialize chat
+    function initChat() {
+      // Clear previous messages if any
+      chatBox.innerHTML = ''; 
+      // Add welcome message
+      setTimeout(() => {
+        addMessage("Hai! 👋 Aku chatbot pribadi admin. Silahkan pilih pertanyaan di bawah atau klik 'Ketik Manual' untuk bertanya bebas.", "bot");
+      }, 300);
+      // Hide manual input by default on chat open
+      manualInputContainer.classList.remove('active');
+      userInput.value = ''; // Clear input field
+    }
+    
+    // Enable manual input field and show toasts
+    function showManualInput() {
+        manualInputContainer.classList.add('active'); // Show the manual input field
+        userInput.focus(); // Focus on the input field
+        showToast('Info Chatbot', 'Mohon maaf ini masih dalam perkembangan, maka mungkin jawaban akan kurang memuaskan.', 5000);
+        addMessage('Sekarang kamu bisa bertanya sesuai keinginan kamu.', 'bot');
+    }
+
+    // Event listener for sending manual message on button click
+    sendManualBtn.addEventListener('click', sendManualMessage);
+
+    // Event listener for sending manual message on Enter key press
+    userInput.addEventListener("keypress", function(e) {
+      if (e.key === "Enter") {
+        sendManualMessage();
+      }
+    });
+
+    // Event listener for gallery code input Enter key press
+    document.getElementById('galleryCodeInput').addEventListener("keypress", function(e) {
+      if (e.key === "Enter") {
+        verifyGalleryCode();
+      }
+    });
+
+    // Initialize after page load
+    document.addEventListener('DOMContentLoaded', function() {
+      // Muat data chatbot dari file JSON
+      loadChatbotData();
+      
+      updateDigitalClock();
+      setInterval(updateDigitalClock, 1000);
+
+      // Tampilkan toast selamat datang
+      setTimeout(() => {
+        showToast('Selamat Datang!', 'Hai, Welcome to my website 👋');
+      }, 1000);
+
+      // Mencegah klik kanan pada gambar profil
+      const profileImage = document.getElementById('profileImage');
+      if (profileImage) {
+        profileImage.addEventListener('contextmenu', function(e) {
+          e.preventDefault(); // Mencegah munculnya menu konteks
+          showToast('Akses Ditolak!', 'Gambar profil tidak dapat disimpan.');
+        });
+      }
+
+      // Logic untuk stiker kucing
+      const catSticker = document.getElementById('catSticker');
+      const catSound = document.getElementById('catSound');
+
+      if (catSticker) {
+        catSticker.addEventListener('click', function() {
+          // Putar suara kucing
+          if (catSound) {
+            catSound.currentTime = 0; 
+            catSound.play().catch(e => console.error("Error playing sound:", e));
+          }
+          // Mulai hujan stiker kucing
+          startCatRain();
+        });
+      }
+
+      // Ensure floating buttons are shown initially on main menu
+      showFloatingButtons();
+    });
+  </script>
+</body>
+</html>

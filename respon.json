@@ -1,0 +1,41 @@
+{
+  "buttons": [
+    { "text": "Siapa kamu?", "action": "siapa kamu?" },
+    { "text": "Fungsi web?", "action": "apa fungsi web ini?" },
+    { "text": "Punya blog?", "action": "kamu punya blog gak?" },
+    { "text": "cara hubungi kamu?", "action": "bagaimana hubungi kamu?" },
+    { "text": "jomblo kah?", "action": "kamu ada pacar min?" },
+    { "text": "suka ngoding?", "action": "kamu suka ngoding?" },
+    { "text": "Warna favoritmu?", "action": "warna favoritmu apa?" },
+    { "text": "Ketik Manual aja deh", "action": "showManualInput" }
+  ],
+  "responses": {
+    "siapa kamu?": "Perkenalkan aku Kira, Asisten pribadi admin yang bertugas menjawab pertanyaan-pertanyaan 😁👐",
+    "kamu ada pacar min?": "Hmmm🤔🤔, kayaknya admin masih jomblo deh, coba deketin dia😁",
+    "apa fungsi web ini?": "Ini semacam tempat ngumpulin jejak digital dan karya-karyaku.",
+    "kamu punya blog gak?": "Ada dong! Coba cek menu atas atau klik bagian blogger 💡",
+    "bagaimana hubungi kamu?": "Bisa lewat DM IG atau isi form kritik dan saran ya 📧",
+    "kamu suka ngoding?": "Banget. Apalagi ngoding sambil denger musik malam-malam 🎧",
+    "hai": "Halo juga👋😁, kamu apa kabar?",
+    "sehat Alhamdulillah": "kamu gimana harinya?", 
+    "kamu bisa apa?": "aku bisa ngobrol sama kamu kok😁",
+    "i love you": "😘😘❤️",
+    "warna favoritmu apa?": "Ungu! Elegan, tenang, dan agak misterius👿😈",
+    "aku suka kamu min": "sama aku juga kok😘"
+  },
+  "unknownResponse": {
+    "message": "Maaf, saya belum bisa memahami pertanyaan Anda.",
+    "suggestion": "Silahkan coba pertanyaan lain atau kirim kritik dan saran ke admin"
+  },
+  "specialResponses": {
+    "contactAdmin": {
+      "content": "Tekan tombol ini untuk mengirim pesan ke admin via email:",
+      "buttons": [
+        { 
+          "text": "Kirim Email Admin", 
+          "action": "showFeedbackPopup" 
+        }
+      ]
+    }
+  }
+}
